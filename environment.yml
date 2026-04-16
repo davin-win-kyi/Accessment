@@ -1,0 +1,13 @@
+name: a11y-benchmark-gpt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - openai>=1.0.0
+      - requests
+      - beautifulsoup4
+      - markdownify
+      - playwright
+      - lxml
