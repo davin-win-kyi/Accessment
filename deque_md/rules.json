@@ -1,0 +1,1122 @@
+[
+  {
+    "rule_id": "audio-caption",
+    "title": "<audio> elements must have a captions <track>",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/audio-caption",
+    "path": "data/deque_md/audio-caption.md",
+    "impact": "critical",
+    "wcag": []
+  },
+  {
+    "rule_id": "blink",
+    "title": "<blink> elements are deprecated and must not be used",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/blink",
+    "path": "data/deque_md/blink.md",
+    "impact": "serious",
+    "wcag": [
+      "2.2.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "definition-list",
+    "title": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, or <template> elements",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/definition-list",
+    "path": "data/deque_md/definition-list.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "dlitem",
+    "title": "<dt> and <dd> elements must be contained by a <dl>",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/dlitem",
+    "path": "data/deque_md/dlitem.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "html-has-lang",
+    "title": "<html> element must have a lang attribute",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/html-has-lang",
+    "path": "data/deque_md/html-has-lang.md",
+    "impact": "serious",
+    "wcag": [
+      "3.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "html-lang-valid",
+    "title": "<html> element must have a valid value for the lang attribute",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/html-lang-valid",
+    "path": "data/deque_md/html-lang-valid.md",
+    "impact": "serious",
+    "wcag": [
+      "3.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "html-xml-lang-mismatch",
+    "title": "<html> elements with lang and xml:lang must have the same base language",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/html-xml-lang-mismatch",
+    "path": "data/deque_md/html-xml-lang-mismatch.md",
+    "impact": "moderate",
+    "wcag": [
+      "3.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "listitem",
+    "title": "<li> elements must be contained in a <ul> or <ol>",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/listitem",
+    "path": "data/deque_md/listitem.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "marquee",
+    "title": "<marquee> elements are deprecated and must not be used",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/marquee",
+    "path": "data/deque_md/marquee.md",
+    "impact": "serious",
+    "wcag": [
+      "2.2.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "object-alt",
+    "title": "<object> elements must have alternate text",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/object-alt",
+    "path": "data/deque_md/object-alt.md",
+    "impact": "serious",
+    "wcag": [
+      "1.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "list",
+    "title": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/list",
+    "path": "data/deque_md/list.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "video-caption",
+    "title": "<video> elements must have a <track> for captions",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/video-caption",
+    "path": "data/deque_md/video-caption.md",
+    "impact": "critical",
+    "wcag": [
+      "1.2.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "video-description",
+    "title": "<video> elements must have an audio description <track>",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/video-description",
+    "path": "data/deque_md/video-description.md",
+    "impact": "critical",
+    "wcag": []
+  },
+  {
+    "rule_id": "accesskeys",
+    "title": "accesskey attribute value must be unique",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/accesskeys",
+    "path": "data/deque_md/accesskeys.md",
+    "impact": "serious",
+    "wcag": []
+  },
+  {
+    "rule_id": "area-alt",
+    "title": "Active <area> elements must have alternate text",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/area-alt",
+    "path": "data/deque_md/area-alt.md",
+    "impact": "critical",
+    "wcag": [
+      "1.1.1",
+      "2.4.4",
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "th-has-data-cells",
+    "title": "All <th> elements and elements with role=\"columnheader\" or role=\"rowheader\" must have data cells they describe",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/th-has-data-cells",
+    "path": "data/deque_md/th-has-data-cells.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "td-headers-attr",
+    "title": "All cells in a <table> element that use the headers attribute must only refer to other cells of that same <table>",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/td-headers-attr",
+    "path": "data/deque_md/td-headers-attr.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "td-has-header",
+    "title": "All non-empty <td> elements in tables larger than 3 by 3 must have an associated table header",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/td-has-header",
+    "path": "data/deque_md/td-has-header.md",
+    "impact": "critical",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "region",
+    "title": "All page content must be contained by landmarks",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/region",
+    "path": "data/deque_md/region.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "color-contrast-enhanced",
+    "title": "All text elements must have sufficient contrast between text in the foreground and background colors behind it in accordance with WCAG 2 AAA contrast ratio thresholds.",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/color-contrast-enhanced",
+    "path": "data/deque_md/color-contrast-enhanced.md",
+    "impact": "serious",
+    "wcag": [
+      "1.4.6",
+      "WCAG 2",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "href-no-hash",
+    "title": "Anchors must only be used as links with valid URLs or URL fragments",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/href-no-hash",
+    "path": "data/deque_md/href-no-hash.md",
+    "impact": "serious",
+    "wcag": [
+      "2.4.4",
+      "2.4.9",
+      "4.1.2"
+    ]
+  },
+  {
+    "rule_id": "aria-valid-attr",
+    "title": "ARIA attributes must conform to valid names",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-valid-attr",
+    "path": "data/deque_md/aria-valid-attr.md",
+    "impact": "critical",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-valid-attr-value",
+    "title": "ARIA attributes must conform to valid values",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-valid-attr-value",
+    "path": "data/deque_md/aria-valid-attr-value.md",
+    "impact": "critical",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-command-name",
+    "title": "ARIA button, link, and menuitem must have an accessible name",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-command-name",
+    "path": "data/deque_md/aria-command-name.md",
+    "impact": "serious",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-dialog-name",
+    "title": "ARIA dialog and alertdialog must have an accessible name",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-dialog-name",
+    "path": "data/deque_md/aria-dialog-name.md",
+    "impact": "serious",
+    "wcag": []
+  },
+  {
+    "rule_id": "aria-input-field-name",
+    "title": "ARIA input fields must have an accessible name",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-input-field-name",
+    "path": "data/deque_md/aria-input-field-name.md",
+    "impact": "serious",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-meter-name",
+    "title": "ARIA meter must have an accessible name",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-meter-name",
+    "path": "data/deque_md/aria-meter-name.md",
+    "impact": "serious",
+    "wcag": [
+      "1.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-progressbar-name",
+    "title": "ARIA progressbar must have an accessible name",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-progressbar-name",
+    "path": "data/deque_md/aria-progressbar-name.md",
+    "impact": "serious",
+    "wcag": [
+      "1.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-allowed-role",
+    "title": "ARIA role should be appropriate for the element",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-allowed-role",
+    "path": "data/deque_md/aria-allowed-role.md",
+    "impact": "minor",
+    "wcag": []
+  },
+  {
+    "rule_id": "aria-roles",
+    "title": "ARIA roles used must conform to valid values",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-roles",
+    "path": "data/deque_md/aria-roles.md",
+    "impact": "serious",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-toggle-field-name",
+    "title": "ARIA toggle fields have an accessible name",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-toggle-field-name",
+    "path": "data/deque_md/aria-toggle-field-name.md",
+    "impact": "serious",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-tooltip-name",
+    "title": "ARIA tooltip must have an accessible name",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-tooltip-name",
+    "path": "data/deque_md/aria-tooltip-name.md",
+    "impact": "serious",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-treeitem-name",
+    "title": "ARIA treeitem must have an accessible name",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-treeitem-name",
+    "path": "data/deque_md/aria-treeitem-name.md",
+    "impact": "serious",
+    "wcag": []
+  },
+  {
+    "rule_id": "aria-hidden-focus",
+    "title": "aria-hidden elements do not contain focusable elements",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-hidden-focus",
+    "path": "data/deque_md/aria-hidden-focus.md",
+    "impact": "serious",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1",
+      "WCAG21"
+    ]
+  },
+  {
+    "rule_id": "aria-hidden-body",
+    "title": "aria-hidden=\"true\" must not be present on the document <body>",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-hidden-body",
+    "path": "data/deque_md/aria-hidden-body.md",
+    "impact": "critical",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "no-autoplay-audio",
+    "title": "Audio must have controls that provide users with the ability to stop automatically played audio after three seconds",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/no-autoplay-audio",
+    "path": "data/deque_md/no-autoplay-audio.md",
+    "impact": "moderate",
+    "wcag": [
+      "1.4.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "autocomplete-valid",
+    "title": "Autocomplete attribute must be used correctly",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/autocomplete-valid",
+    "path": "data/deque_md/autocomplete-valid.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.5",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "landmark-banner-is-top-level",
+    "title": "Banner landmark must not be contained in another landmark",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/landmark-banner-is-top-level",
+    "path": "data/deque_md/landmark-banner-is-top-level.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "p-as-heading",
+    "title": "Bold, italic text and font-size are not used to style <p> elements as a heading",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/p-as-heading",
+    "path": "data/deque_md/p-as-heading.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "button-name",
+    "title": "Buttons must have discernible text",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/button-name",
+    "path": "data/deque_md/button-name.md",
+    "impact": "critical",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-required-parent",
+    "title": "Certain ARIA roles must be contained by particular parent elements",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-required-parent",
+    "path": "data/deque_md/aria-required-parent.md",
+    "impact": "critical",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-required-children",
+    "title": "Certain ARIA roles must contain particular children",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-required-children",
+    "path": "data/deque_md/aria-required-children.md",
+    "impact": "critical",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "checkboxgroup",
+    "title": "Checkbox inputs with the same name attribute value must be part of a group",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/checkboxgroup",
+    "path": "data/deque_md/checkboxgroup.md",
+    "impact": "critical",
+    "wcag": []
+  },
+  {
+    "rule_id": "landmark-complementary-is-top-level",
+    "title": "Complementary landmarks and/or asides are top level",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/landmark-complementary-is-top-level",
+    "path": "data/deque_md/landmark-complementary-is-top-level.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "landmark-contentinfo-is-top-level",
+    "title": "Contentinfo landmark must not be contained in another landmark",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/landmark-contentinfo-is-top-level",
+    "path": "data/deque_md/landmark-contentinfo-is-top-level.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "css-orientation-lock",
+    "title": "CSS Media queries are not used to lock display orientation",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/css-orientation-lock",
+    "path": "data/deque_md/css-orientation-lock.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.4",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "table-fake-caption",
+    "title": "Data or header cells should not be used to give caption to a data table",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/table-fake-caption",
+    "path": "data/deque_md/table-fake-caption.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "document-title",
+    "title": "Documents must contain a title element to aid in navigation",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/document-title",
+    "path": "data/deque_md/document-title.md",
+    "impact": "serious",
+    "wcag": [
+      "2.4.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "role-img-alt",
+    "title": "Elements containing role=\"img\" have an alternative text",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/role-img-alt",
+    "path": "data/deque_md/role-img-alt.md",
+    "impact": "serious",
+    "wcag": [
+      "1.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "focus-order-semantics",
+    "title": "Elements in the focus order need a role appropriate for interactive content",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/focus-order-semantics",
+    "path": "data/deque_md/focus-order-semantics.md",
+    "impact": "minor",
+    "wcag": []
+  },
+  {
+    "rule_id": "aria-allowed-attr",
+    "title": "Elements must only use allowed ARIA attributes",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-allowed-attr",
+    "path": "data/deque_md/aria-allowed-attr.md",
+    "impact": "serious",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "tabindex",
+    "title": "Elements should not have tabindex greater than zero",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/tabindex",
+    "path": "data/deque_md/tabindex.md",
+    "impact": "serious",
+    "wcag": [
+      "2.4.3"
+    ]
+  },
+  {
+    "rule_id": "presentation-role-conflict",
+    "title": "Elements whose role is none or presentation must not conflict with other roles",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/presentation-role-conflict",
+    "path": "data/deque_md/presentation-role-conflict.md",
+    "impact": "minor",
+    "wcag": []
+  },
+  {
+    "rule_id": "identical-links-same-purpose",
+    "title": "Ensure that links with the same accessible name serve a similar purpose",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/identical-links-same-purpose",
+    "path": "data/deque_md/identical-links-same-purpose.md",
+    "impact": "minor",
+    "wcag": [
+      "2.4.9",
+      "3.2.4",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "scrollable-region-focusable",
+    "title": "Ensure that scrollable region has keyboard access",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/scrollable-region-focusable",
+    "path": "data/deque_md/scrollable-region-focusable.md",
+    "impact": "moderate",
+    "wcag": [
+      "2.1.1",
+      "2.4.7",
+      "3.2.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "frame-focusable-content",
+    "title": "Ensures  <frame> and <iframe> elements with focusable content do not have tabindex=-1",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/frame-focusable-content",
+    "path": "data/deque_md/frame-focusable-content.md",
+    "impact": "serious",
+    "wcag": [
+      "2.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-text",
+    "title": "Ensures role=\"text\" is used on elements with no focusable descendants",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-text",
+    "path": "data/deque_md/aria-text.md",
+    "impact": "serious",
+    "wcag": []
+  },
+  {
+    "rule_id": "empty-table-header",
+    "title": "Ensures table headers have discernible text",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/empty-table-header",
+    "path": "data/deque_md/empty-table-header.md",
+    "impact": "minor",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "landmark-no-duplicate-main",
+    "title": "Ensures the document has at most one main landmark",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/landmark-no-duplicate-main",
+    "path": "data/deque_md/landmark-no-duplicate-main.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "label",
+    "title": "Form <input> elements must have labels",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/label",
+    "path": "data/deque_md/label.md",
+    "impact": "critical",
+    "wcag": [
+      "1.3.1",
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "label-title-only",
+    "title": "Form <input> elements should have a visible label",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/label-title-only",
+    "path": "data/deque_md/label-title-only.md",
+    "impact": "serious",
+    "wcag": []
+  },
+  {
+    "rule_id": "form-field-multiple-labels",
+    "title": "Form fields do not have duplicate labels",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/form-field-multiple-labels",
+    "path": "data/deque_md/form-field-multiple-labels.md",
+    "impact": "moderate",
+    "wcag": [
+      "3.3.2",
+      "3.4.0",
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "frame-tested",
+    "title": "Frames must be tested with axe-core",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/frame-tested",
+    "path": "data/deque_md/frame-tested.md",
+    "impact": "critical",
+    "wcag": []
+  },
+  {
+    "rule_id": "frame-title-unique",
+    "title": "Frames must have a unique title attribute",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/frame-title-unique",
+    "path": "data/deque_md/frame-title-unique.md",
+    "impact": "serious",
+    "wcag": []
+  },
+  {
+    "rule_id": "frame-title",
+    "title": "Frames must have title attribute",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/frame-title",
+    "path": "data/deque_md/frame-title.md",
+    "impact": "serious",
+    "wcag": [
+      "2.4.1",
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "heading-order",
+    "title": "Heading levels should only increase by one",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/heading-order",
+    "path": "data/deque_md/heading-order.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "empty-heading",
+    "title": "Headings must not be empty",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/empty-heading",
+    "path": "data/deque_md/empty-heading.md",
+    "impact": "minor",
+    "wcag": []
+  },
+  {
+    "rule_id": "hidden-content",
+    "title": "Hidden content on the page cannot be analyzed",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/hidden-content",
+    "path": "data/deque_md/hidden-content.md",
+    "impact": "minor",
+    "wcag": []
+  },
+  {
+    "rule_id": "duplicate-id-active",
+    "title": "ID attribute value must be unique",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/duplicate-id-active",
+    "path": "data/deque_md/duplicate-id-active.md",
+    "impact": "critical",
+    "wcag": [
+      "4.1.1",
+      "WCAG 1.0",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "duplicate-id",
+    "title": "ID attribute values must be unique",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/duplicate-id",
+    "path": "data/deque_md/duplicate-id.md",
+    "impact": "minor",
+    "wcag": [
+      "4.1.1",
+      "WCAG 1.0",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "duplicate-id-aria",
+    "title": "IDs used in ARIA and labels must be unique",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/duplicate-id-aria",
+    "path": "data/deque_md/duplicate-id-aria.md",
+    "impact": "critical",
+    "wcag": [
+      "4.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "input-image-alt",
+    "title": "Image buttons must have alternate text",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/input-image-alt",
+    "path": "data/deque_md/input-image-alt.md",
+    "impact": "critical",
+    "wcag": [
+      "1.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "image-alt",
+    "title": "Images must have alternate text",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/image-alt",
+    "path": "data/deque_md/image-alt.md",
+    "impact": "critical",
+    "wcag": [
+      "1.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "avoid-inline-spacing",
+    "title": "Inline text spacing must be adjustable with custom stylesheets",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/avoid-inline-spacing",
+    "path": "data/deque_md/avoid-inline-spacing.md",
+    "impact": "serious",
+    "wcag": [
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "input-button-name",
+    "title": "Input buttons must have discernible text",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/input-button-name",
+    "path": "data/deque_md/input-button-name.md",
+    "impact": "critical",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "label-content-name-mismatch",
+    "title": "Label and name from content mismatch",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/label-content-name-mismatch",
+    "path": "data/deque_md/label-content-name-mismatch.md",
+    "impact": "serious",
+    "wcag": [
+      "2.5.3",
+      "4.1.2",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "landmark-unique",
+    "title": "Landmarks must have a unique role or role/label/title (i.e. accessible name) combination",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/landmark-unique",
+    "path": "data/deque_md/landmark-unique.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "valid-lang",
+    "title": "lang attribute must have a valid value",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/valid-lang",
+    "path": "data/deque_md/valid-lang.md",
+    "impact": "serious",
+    "wcag": [
+      "3.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "layout-table",
+    "title": "Layout tables must not use data table elements",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/layout-table",
+    "path": "data/deque_md/layout-table.md",
+    "impact": "serious",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "link-in-text-block",
+    "title": "Links must be distinguished from surrounding text in a way that does not rely on color",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/link-in-text-block",
+    "path": "data/deque_md/link-in-text-block.md",
+    "impact": "serious",
+    "wcag": [
+      "1.4.1",
+      "1.4.3",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "link-name",
+    "title": "Links must have discernible text",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/link-name",
+    "path": "data/deque_md/link-name.md",
+    "impact": "serious",
+    "wcag": [
+      "2.4.4",
+      "2.4.9",
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "landmark-main-is-top-level",
+    "title": "Main landmark must not be contained in another landmark",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/landmark-main-is-top-level",
+    "path": "data/deque_md/landmark-main-is-top-level.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "nested-interactive",
+    "title": "Nested interactive controls are not announced by screen readers",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/nested-interactive",
+    "path": "data/deque_md/nested-interactive.md",
+    "impact": "serious",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "page-has-heading-one",
+    "title": "Page must contain a level-one heading",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/page-has-heading-one",
+    "path": "data/deque_md/page-has-heading-one.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "bypass",
+    "title": "Page must have means to bypass repeated blocks",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/bypass",
+    "path": "data/deque_md/bypass.md",
+    "impact": "serious",
+    "wcag": [
+      "2.4.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "landmark-one-main",
+    "title": "Page must have one main landmark",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/landmark-one-main",
+    "path": "data/deque_md/landmark-one-main.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "landmark-no-duplicate-banner",
+    "title": "Page must not have more than one banner landmark",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/landmark-no-duplicate-banner",
+    "path": "data/deque_md/landmark-no-duplicate-banner.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "landmark-no-duplicate-contentinfo",
+    "title": "Page must not have more than one contentinfo landmark",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/landmark-no-duplicate-contentinfo",
+    "path": "data/deque_md/landmark-no-duplicate-contentinfo.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "radiogroup",
+    "title": "Radio inputs with the same name attribute value must be part of a group",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/radiogroup",
+    "path": "data/deque_md/radiogroup.md",
+    "impact": "critical",
+    "wcag": []
+  },
+  {
+    "rule_id": "aria-required-attr",
+    "title": "Required ARIA attributes must be provided",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-required-attr",
+    "path": "data/deque_md/aria-required-attr.md",
+    "impact": "critical",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "scope-attr-valid",
+    "title": "Scope attribute should be used correctly on tables",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/scope-attr-valid",
+    "path": "data/deque_md/scope-attr-valid.md",
+    "impact": "critical",
+    "wcag": []
+  },
+  {
+    "rule_id": "select-name",
+    "title": "select element must have an accessible name",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/select-name",
+    "path": "data/deque_md/select-name.md",
+    "impact": "critical",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "server-side-image-map",
+    "title": "Server-side image maps must not be used",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/server-side-image-map",
+    "path": "data/deque_md/server-side-image-map.md",
+    "impact": "minor",
+    "wcag": [
+      "2.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "svg-img-alt",
+    "title": "SVG images and graphics require accessible text",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/svg-img-alt",
+    "path": "data/deque_md/svg-img-alt.md",
+    "impact": "serious",
+    "wcag": [
+      "1.1.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "color-contrast",
+    "title": "Text elements must have sufficient color contrast against the background",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/color-contrast",
+    "path": "data/deque_md/color-contrast.md",
+    "impact": "serious",
+    "wcag": [
+      "1.4.3",
+      "WCAG 2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "image-redundant-alt",
+    "title": "Text of buttons and links should not be repeated in the image alternative",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/image-redundant-alt",
+    "path": "data/deque_md/image-redundant-alt.md",
+    "impact": "minor",
+    "wcag": [
+      "1.1.1"
+    ]
+  },
+  {
+    "rule_id": "table-duplicate-name",
+    "title": "The <caption> element should not contain the same text as the summary attribute",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/table-duplicate-name",
+    "path": "data/deque_md/table-duplicate-name.md",
+    "impact": "minor",
+    "wcag": []
+  },
+  {
+    "rule_id": "skip-link",
+    "title": "The skip-link target should exist and be focusable",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/skip-link",
+    "path": "data/deque_md/skip-link.md",
+    "impact": "moderate",
+    "wcag": []
+  },
+  {
+    "rule_id": "meta-refresh",
+    "title": "Timed refresh must not exist",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/meta-refresh",
+    "path": "data/deque_md/meta-refresh.md",
+    "impact": "critical",
+    "wcag": [
+      "2.2.1",
+      "2.2.4",
+      "3.2.5",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-dpub-role-fallback",
+    "title": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-dpub-role-fallback",
+    "path": "data/deque_md/aria-dpub-role-fallback.md",
+    "impact": "moderate",
+    "wcag": [
+      "1.3.1",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "aria-roledescription",
+    "title": "Use aria-roledescription on elements with a semantic role",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/aria-roledescription",
+    "path": "data/deque_md/aria-roledescription.md",
+    "impact": "serious",
+    "wcag": [
+      "4.1.2",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  },
+  {
+    "rule_id": "meta-viewport-large",
+    "title": "Users should be able to zoom and scale the text up to 500%",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/meta-viewport-large",
+    "path": "data/deque_md/meta-viewport-large.md",
+    "impact": "minor",
+    "wcag": [
+      "1.4.4"
+    ]
+  },
+  {
+    "rule_id": "meta-viewport",
+    "title": "Zooming and scaling must not be disabled",
+    "url": "https://dequeuniversity.com/rules/axe/4.2/meta-viewport",
+    "path": "data/deque_md/meta-viewport.md",
+    "impact": "critical",
+    "wcag": [
+      "1.4.4",
+      "WCAG 2.0",
+      "WCAG 2.1"
+    ]
+  }
+]

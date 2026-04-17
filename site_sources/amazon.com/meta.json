@@ -1,0 +1,11 @@
+{
+  "url": "https://www.amazon.com/",
+  "slug": "amazon.com",
+  "timestamp_unix": 1776407209.266916,
+  "status": 202,
+  "final_url": "https://www.amazon.com/",
+  "title": "Amazon.com. Spend less. Smile more.",
+  "raw_response_path": null,
+  "rendered_dom_path": "data/site_sources/amazon.com/source.html",
+  "screenshot_path": "data/site_sources/amazon.com/page.png"
+}

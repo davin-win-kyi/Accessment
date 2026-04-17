@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/",
+  "slug": "youtube.com",
+  "timestamp_unix": 1776407225.229813,
+  "status": 200,
+  "final_url": "https://www.youtube.com/",
+  "title": "YouTube",
+  "raw_response_path": "data/site_sources/youtube.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/youtube.com/source.html",
+  "screenshot_path": "data/site_sources/youtube.com/page.png"
+}

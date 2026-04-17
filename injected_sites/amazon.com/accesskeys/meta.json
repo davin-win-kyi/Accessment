@@ -1,0 +1,12 @@
+{
+  "site_name": "amazon.com",
+  "source_path": "site_sources/amazon.com/source.html",
+  "rule_md_path": "deque_md/accesskeys.md",
+  "rule": "accesskeys",
+  "a11y_error": "accesskeys",
+  "expected_rule_id": "accesskeys",
+  "injection_script": "Add the same accesskey value to two existing <link rel=\"preconnect\"> elements in the head to create duplicate accesskeys.",
+  "injection_script_path": "injected_sites/amazon.com/accesskeys/injection_script.txt",
+  "injected_path": "injected_sites/amazon.com/accesskeys/injected.html",
+  "rationale": "The Axe accesskeys rule flags duplicate accesskey values anywhere in the document. Adding the same accesskey value to two existing <link> elements creates a duplicate, triggering the rule without affecting page behavior or structure."
+}

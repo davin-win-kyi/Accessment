@@ -1,0 +1,11 @@
+{
+  "url": "https://www.walmart.com/",
+  "slug": "walmart.com",
+  "timestamp_unix": 1776407217.5347571,
+  "status": 200,
+  "final_url": "https://www.walmart.com/",
+  "title": "Walmart | Save Money. Live better.",
+  "raw_response_path": "data/site_sources/walmart.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/walmart.com/source.html",
+  "screenshot_path": "data/site_sources/walmart.com/page.png"
+}

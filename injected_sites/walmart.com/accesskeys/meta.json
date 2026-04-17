@@ -1,0 +1,12 @@
+{
+  "site_name": "walmart.com",
+  "source_path": "site_sources/walmart.com/source.html",
+  "rule_md_path": "deque_md/accesskeys.md",
+  "rule": "accesskeys",
+  "a11y_error": "accesskeys",
+  "expected_rule_id": "accesskeys",
+  "injection_script": "Added duplicate accesskey=\"a\" to two meta tags in the head to create non-unique accesskey values.",
+  "injection_script_path": "injected_sites/walmart.com/accesskeys/injection_script.txt",
+  "injected_path": "injected_sites/walmart.com/accesskeys/injected.html",
+  "rationale": "Axe flags duplicate accesskey values anywhere in the document. Adding the same accesskey to two meta elements creates non-unique accesskeys, triggering the rule."
+}

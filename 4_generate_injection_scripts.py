@@ -6,20 +6,29 @@ from pathlib import Path
 from typing import Dict, List
 
 from openai import OpenAI
+from dotenv import load_dotenv
 
-DEQUE_DIR = Path("data/deque_md")
-SITES_DIR = Path("data/site_sources")
-OUT_DIR = Path("data/injected_sites")
+load_dotenv()
+
+
+DEQUE_DIR = Path("deque_md")
+SITES_DIR = Path("site_sources")
+OUT_DIR = Path("injected_sites")
 MANIFEST_PATH = OUT_DIR / "generated_injections.json"
 
-MAX_RULES = int(os.getenv("MAX_RULES", "10"))
-MAX_SITES = int(os.getenv("MAX_SITES", "0"))
+MAX_RULES = int(os.getenv("MAX_RULES", "2"))
+MAX_SITES = int(os.getenv("MAX_SITES", "3"))
 SOURCE_FILENAME = "source.html"
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5")
 
-client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
+if not OPENAI_API_KEY:
+    raise RuntimeError(
+        "OPENAI_API_KEY is required. This script does not support deterministic fallback."
+    )
+
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 
 def read_text(path: Path) -> str:
@@ -62,65 +71,15 @@ def extract_json_from_text(text: str) -> dict:
         bare = re.search(r"(\{.*\})", text, re.DOTALL)
         if bare:
             return json.loads(bare.group(1))
-        raise
+        raise ValueError(f"Could not extract valid JSON from model output:\n{text}")
 
 
 def call_gpt_json(prompt: str) -> dict:
-    if not client:
-        raise RuntimeError("OPENAI_API_KEY must be set for GPT injection.")
     response = client.responses.create(
         model=OPENAI_MODEL,
         input=prompt,
-        max_output_tokens=4000,
     )
     return extract_json_from_text(response.output_text)
-
-
-def deterministic_injector(html_source: str, rule_id: str) -> Dict:
-    injected_html = html_source
-    injection_script = ""
-    rationale = ""
-
-    if "image-alt" in rule_id:
-        injected_html = re.sub(
-            r'<img([^>]*?)\salt="[^"]*"([^>]*?)>',
-            r"<img\1\2>",
-            html_source,
-            count=1,
-            flags=re.IGNORECASE,
-        )
-        injection_script = "Removed the first alt attribute from an <img> element."
-        rationale = "Minimal mutation to induce image-alt."
-    elif "label" in rule_id:
-        injected_html = re.sub(
-            r'<label([^>]*?)for="[^"]*"([^>]*?)>',
-            r"<label\1\2>",
-            html_source,
-            count=1,
-            flags=re.IGNORECASE,
-        )
-        injection_script = "Removed the for attribute from the first <label>."
-        rationale = "Minimal mutation targeting label-related failures."
-    elif "button-name" in rule_id:
-        injected_html = re.sub(
-            r"<button([^>]*)>.*?</button>",
-            r"<button\1></button>",
-            html_source,
-            count=1,
-            flags=re.IGNORECASE | re.DOTALL,
-        )
-        injection_script = "Removed the visible text from the first <button>."
-        rationale = "Minimal mutation targeting button-name."
-    else:
-        injection_script = f"No deterministic injector implemented for {rule_id}."
-        rationale = "Fallback placeholder only."
-
-    return {
-        "expected_rule_id": rule_id,
-        "injection_script": injection_script,
-        "injected_html": injected_html,
-        "rationale": rationale,
-    }
 
 
 def gpt_injector(rule_md: str, html_source: str, rule_id: str, site_name: str) -> Dict:
@@ -162,9 +121,12 @@ Task:
 
 
 def generate_injection(rule_md: str, html_source: str, rule_id: str, site_name: str) -> Dict:
-    if client:
-        return gpt_injector(rule_md, html_source, rule_id, site_name)
-    return deterministic_injector(html_source, rule_id)
+    return gpt_injector(
+        rule_md=rule_md,
+        html_source=html_source,
+        rule_id=rule_id,
+        site_name=site_name,
+    )
 
 
 def main():
