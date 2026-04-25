@@ -1,0 +1,1 @@
+(function(){var t=document.createElement('div');t.setAttribute('role','tooltip');t.setAttribute('aria-label','');t.id='axe-test-tooltip-empty-label';t.textContent='';t.style.position='fixed';t.style.top='0';t.style.left='0';t.style.width='1px';t.style.height='1px';t.style.zIndex='1';document.body.appendChild(t);})();

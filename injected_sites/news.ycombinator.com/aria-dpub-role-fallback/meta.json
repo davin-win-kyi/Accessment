@@ -1,0 +1,11 @@
+{
+  "site_name": "news.ycombinator.com",
+  "source_path": "site_sources/news.ycombinator.com/source.html",
+  "injected_source_path": "injected_sites/news.ycombinator.com/aria-dpub-role-fallback/source.html",
+  "rule_md_path": "deque_md/aria-dpub-role-fallback.md",
+  "rule": "aria-dpub-role-fallback",
+  "a11y_error": "aria-dpub-role-fallback",
+  "expected_rule_id": "aria-dpub-role-fallback",
+  "injection_script_path": "injected_sites/news.ycombinator.com/aria-dpub-role-fallback/injection_script.js",
+  "rationale": "Adds a DPUB role (doc-chapter) to a div, which has no implicit ARIA role, causing a missing fallback and triggering the rule."
+}

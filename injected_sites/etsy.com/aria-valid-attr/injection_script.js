@@ -1,0 +1,1 @@
+var bad=document.createElement('div');bad.id='invalidAriaAttrExample';bad.textContent='Sample item with invalid ARIA attribute';bad.setAttribute('aria-visible','true');document.body.appendChild(bad);

@@ -1,0 +1,1 @@
+(function(){var target=document.querySelector('main')||document.body;var defective=document.createElement('div');defective.id='a11y-invalid-aria-value';defective.setAttribute('aria-hidden','rtue');defective.textContent='Sample content with invalid ARIA value';target.appendChild(defective);})();

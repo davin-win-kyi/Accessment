@@ -1,0 +1,11 @@
+{
+  "site_name": "cafepress.com",
+  "source_path": "site_sources/cafepress.com/source.html",
+  "injected_source_path": "injected_sites/cafepress.com/aria-input-field-name/source.html",
+  "rule_md_path": "deque_md/aria-input-field-name.md",
+  "rule": "aria-input-field-name",
+  "a11y_error": "aria-input-field-name",
+  "expected_rule_id": "aria-input-field-name",
+  "injection_script_path": "injected_sites/cafepress.com/aria-input-field-name/injection_script.js",
+  "rationale": "Adds a div with role=combobox and no aria-label or aria-labelledby, which lacks an accessible name and triggers aria-input-field-name."
+}

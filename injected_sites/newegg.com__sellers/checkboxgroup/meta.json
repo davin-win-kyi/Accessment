@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/checkboxgroup/source.html",
+  "rule_md_path": "deque_md/checkboxgroup.md",
+  "rule": "checkboxgroup",
+  "a11y_error": "checkboxgroup",
+  "expected_rule_id": "checkboxgroup",
+  "injection_script_path": "injected_sites/newegg.com__sellers/checkboxgroup/injection_script.js",
+  "rationale": "Adds multiple checkbox inputs sharing the same name without grouping them in a fieldset or ARIA group, triggering the checkboxgroup rule."
+}

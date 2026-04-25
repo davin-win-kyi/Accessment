@@ -1,0 +1,11 @@
+{
+  "site_name": "news.ycombinator.com",
+  "source_path": "site_sources/news.ycombinator.com/source.html",
+  "injected_source_path": "injected_sites/news.ycombinator.com/aria-allowed-attr/source.html",
+  "rule_md_path": "deque_md/aria-allowed-attr.md",
+  "rule": "aria-allowed-attr",
+  "a11y_error": "aria-allowed-attr",
+  "expected_rule_id": "aria-allowed-attr",
+  "injection_script_path": "injected_sites/news.ycombinator.com/aria-allowed-attr/injection_script.js",
+  "rationale": "Adds aria-checked to a link (implicit role=link), which does not permit aria-checked, triggering aria-allowed-attr."
+}

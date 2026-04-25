@@ -1,0 +1,1 @@
+(function(){var tree=document.createElement('div');tree.setAttribute('role','tree');tree.id='injected-aria-tree';var badItem=document.createElement('div');badItem.setAttribute('role','treeitem');tree.appendChild(badItem);document.body.appendChild(tree);}());

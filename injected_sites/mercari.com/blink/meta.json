@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/blink/source.html",
+  "rule_md_path": "deque_md/blink.md",
+  "rule": "blink",
+  "a11y_error": "blink",
+  "expected_rule_id": "blink",
+  "injection_script_path": "injected_sites/mercari.com/blink/injection_script.js",
+  "rationale": "Injects a deprecated <blink> element into the page, ensuring the rule flags its presence."
+}

@@ -1,0 +1,1 @@
+(function(){ var offender = document.createElement('div'); offender.setAttribute('role','doc-chapter'); offender.textContent = 'Injected DPUB role without implicit fallback'; document.body.appendChild(offender); })();

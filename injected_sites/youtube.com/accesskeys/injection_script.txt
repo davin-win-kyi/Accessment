@@ -1,1 +1,0 @@
-Added duplicate accesskey="g" to two existing <link rel="icon"> tags to create non-unique accesskey values.

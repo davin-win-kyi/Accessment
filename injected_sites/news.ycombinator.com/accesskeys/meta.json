@@ -1,0 +1,11 @@
+{
+  "site_name": "news.ycombinator.com",
+  "source_path": "site_sources/news.ycombinator.com/source.html",
+  "injected_source_path": "injected_sites/news.ycombinator.com/accesskeys/source.html",
+  "rule_md_path": "deque_md/accesskeys.md",
+  "rule": "accesskeys",
+  "a11y_error": "accesskeys",
+  "expected_rule_id": "accesskeys",
+  "injection_script_path": "injected_sites/news.ycombinator.com/accesskeys/injection_script.js",
+  "rationale": "Adds the same accesskey value to multiple links, creating duplicate accesskey values and violating uniqueness."
+}

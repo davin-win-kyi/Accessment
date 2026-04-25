@@ -1,0 +1,1 @@
+(function(){var target=document.querySelector('main')||document.body;var tree=document.createElement('div');tree.setAttribute('role','tree');tree.id='axe-bad-tree';var bad=document.createElement('div');bad.setAttribute('role','treeitem');bad.setAttribute('tabindex','0');tree.appendChild(bad);target.appendChild(tree);})();

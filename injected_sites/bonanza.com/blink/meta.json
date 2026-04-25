@@ -1,0 +1,11 @@
+{
+  "site_name": "bonanza.com",
+  "source_path": "site_sources/bonanza.com/source.html",
+  "injected_source_path": "injected_sites/bonanza.com/blink/source.html",
+  "rule_md_path": "deque_md/blink.md",
+  "rule": "blink",
+  "a11y_error": "blink",
+  "expected_rule_id": "blink",
+  "injection_script_path": "injected_sites/bonanza.com/blink/injection_script.js",
+  "rationale": "Inserted a deprecated <blink> element into the main content so the axe \"blink\" rule flags its presence."
+}

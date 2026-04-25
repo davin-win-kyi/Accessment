@@ -1,0 +1,1 @@
+(function(){var tree=document.createElement('div');tree.setAttribute('role','tree');tree.id='etsy-tree';var item=document.createElement('div');item.setAttribute('role','treeitem');item.id='etsy-treeitem-missing-name';item.setAttribute('tabindex','0');item.setAttribute('aria-label','');tree.appendChild(item);document.body.appendChild(tree);})();

@@ -1,0 +1,1 @@
+(function(){var btn=document.createElement('button');btn.id='a11y-bad-btn';btn.setAttribute('value','Action');btn.style.position='fixed';btn.style.bottom='10px';btn.style.left='10px';btn.style.width='44px';btn.style.height='44px';btn.style.zIndex='2147483647';document.body.appendChild(btn);})();

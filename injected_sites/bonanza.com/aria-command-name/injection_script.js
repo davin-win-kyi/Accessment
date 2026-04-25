@@ -1,0 +1,1 @@
+(function(){var target=document.querySelector('main')||document.body;var bad=document.createElement('div');bad.id='injected-aria-command-no-name';bad.setAttribute('role','button');bad.setAttribute('aria-label','');bad.style.border='1px solid transparent';bad.style.margin='10px';target.appendChild(bad);})();

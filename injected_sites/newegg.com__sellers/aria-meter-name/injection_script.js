@@ -1,0 +1,1 @@
+(function(){var target=document.querySelector('#ajax-content-wrap')||document.body;var meter=document.createElement('div');meter.id='axe-meter-no-name';meter.setAttribute('role','meter');meter.setAttribute('aria-valuemin','0');meter.setAttribute('aria-valuemax','100');meter.setAttribute('aria-valuenow','42');target.appendChild(meter);})();

@@ -1,0 +1,1 @@
+(function(){var container=document.querySelector('main')||document.getElementById('page-content')||document.body;if(!container)return;var audio=document.createElement('audio');audio.id='a11y-audio-no-captions';audio.setAttribute('controls','');/* Intentionally omitting <track kind="captions"> to trigger the rule */container.appendChild(audio);}());

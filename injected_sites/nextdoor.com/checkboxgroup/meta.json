@@ -1,0 +1,11 @@
+{
+  "site_name": "nextdoor.com",
+  "source_path": "site_sources/nextdoor.com/source.html",
+  "injected_source_path": "injected_sites/nextdoor.com/checkboxgroup/source.html",
+  "rule_md_path": "deque_md/checkboxgroup.md",
+  "rule": "checkboxgroup",
+  "a11y_error": "checkboxgroup",
+  "expected_rule_id": "checkboxgroup",
+  "injection_script_path": "injected_sites/nextdoor.com/checkboxgroup/injection_script.js",
+  "rationale": "Injected multiple checkboxes that share the same name without a fieldset or ARIA group, creating an ungrouped checkbox set that triggers the checkboxgroup rule."
+}

@@ -1,0 +1,11 @@
+{
+  "site_name": "news.ycombinator.com",
+  "source_path": "site_sources/news.ycombinator.com/source.html",
+  "injected_source_path": "injected_sites/news.ycombinator.com/button-name/source.html",
+  "rule_md_path": "deque_md/button-name.md",
+  "rule": "button-name",
+  "a11y_error": "button-name",
+  "expected_rule_id": "button-name",
+  "injection_script_path": "injected_sites/news.ycombinator.com/button-name/injection_script.js",
+  "rationale": "Appends a focusable button with an empty aria-label, resulting in no discernible accessible name and triggering the button-name rule."
+}

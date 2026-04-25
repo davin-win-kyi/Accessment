@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/blink/source.html",
+  "rule_md_path": "deque_md/blink.md",
+  "rule": "blink",
+  "a11y_error": "blink",
+  "expected_rule_id": "blink",
+  "injection_script_path": "injected_sites/offerup.com/blink/injection_script.js",
+  "rationale": "Adds a deprecated <blink> element to the page content, which directly triggers the axe blink rule."
+}

@@ -1,0 +1,11 @@
+{
+  "site_name": "bonanza.com",
+  "source_path": "site_sources/bonanza.com/source.html",
+  "injected_source_path": "injected_sites/bonanza.com/aria-toggle-field-name/source.html",
+  "rule_md_path": "deque_md/aria-toggle-field-name.md",
+  "rule": "aria-toggle-field-name",
+  "a11y_error": "aria-toggle-field-name",
+  "expected_rule_id": "aria-toggle-field-name",
+  "injection_script_path": "injected_sites/bonanza.com/aria-toggle-field-name/injection_script.js",
+  "rationale": "Adds a focusable ARIA toggle (role=\"switch\") with aria-checked but no accessible name, triggering aria-toggle-field-name."
+}

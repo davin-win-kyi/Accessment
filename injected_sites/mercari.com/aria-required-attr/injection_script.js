@@ -1,0 +1,1 @@
+(function(){var target=document.querySelector('main')||document.body;var bad=document.createElement('div');bad.id='axe-missing-aria-checked';bad.setAttribute('role','checkbox');bad.setAttribute('tabindex','0');bad.textContent='Enable deal alerts';target.appendChild(bad);})();

@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/aria-hidden-body/source.html",
+  "rule_md_path": "deque_md/aria-hidden-body.md",
+  "rule": "aria-hidden-body",
+  "a11y_error": "aria-hidden-body",
+  "expected_rule_id": "aria-hidden-body",
+  "injection_script_path": "injected_sites/newegg.com__sellers/aria-hidden-body/injection_script.js",
+  "rationale": "Set aria-hidden=\"true\" on the body so all content is hidden from assistive technologies, directly violating the rule."
+}

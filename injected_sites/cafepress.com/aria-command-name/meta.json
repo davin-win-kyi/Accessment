@@ -1,0 +1,11 @@
+{
+  "site_name": "cafepress.com",
+  "source_path": "site_sources/cafepress.com/source.html",
+  "injected_source_path": "injected_sites/cafepress.com/aria-command-name/source.html",
+  "rule_md_path": "deque_md/aria-command-name.md",
+  "rule": "aria-command-name",
+  "a11y_error": "aria-command-name",
+  "expected_rule_id": "aria-command-name",
+  "injection_script_path": "injected_sites/cafepress.com/aria-command-name/injection_script.js",
+  "rationale": "Injects a visible element with role=button and an empty aria-label, resulting in no accessible name and triggering aria-command-name."
+}

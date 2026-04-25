@@ -1,0 +1,1 @@
+(function(){var target=document.querySelector('footer[data-testid="MainFooter"]')||document.querySelector('footer');if(target){target.setAttribute('aria-hidden','true');}})();

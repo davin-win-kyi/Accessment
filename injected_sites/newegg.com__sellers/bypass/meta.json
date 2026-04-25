@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/bypass/source.html",
+  "rule_md_path": "deque_md/bypass.md",
+  "rule": "bypass",
+  "a11y_error": "bypass",
+  "expected_rule_id": "bypass",
+  "injection_script_path": "injected_sites/newegg.com__sellers/bypass/injection_script.js",
+  "rationale": "Removes the page\u2019s skip link, converts all headings to non-heading divs, and strips landmark semantics, leaving no bypass mechanism and triggering the bypass rule."
+}

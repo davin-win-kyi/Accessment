@@ -1,0 +1,11 @@
+{
+  "url": "https://seattle.craigslist.org/search/oly/ccc",
+  "slug": "seattle.craigslist.org__search_oly_ccc",
+  "timestamp_unix": 1776804589.6609864,
+  "status": 200,
+  "final_url": "https://seattle.craigslist.org/search/oly/ccc#search=2~list~0",
+  "title": "olympia community - craigslist",
+  "raw_response_path": "data/site_sources/seattle.craigslist.org__search_oly_ccc/raw_response.html",
+  "rendered_dom_path": "data/site_sources/seattle.craigslist.org__search_oly_ccc/source.html",
+  "screenshot_path": "data/site_sources/seattle.craigslist.org__search_oly_ccc/page.png"
+}

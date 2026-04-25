@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/bypass/source.html",
+  "rule_md_path": "deque_md/bypass.md",
+  "rule": "bypass",
+  "a11y_error": "bypass",
+  "expected_rule_id": "bypass",
+  "injection_script_path": "injected_sites/offerup.com/bypass/injection_script.js",
+  "rationale": "Removes all bypass mechanisms by stripping the main and other landmark regions, replacing all headings with generic elements, and removing any in-page skip links so the page lacks headings, skip links, and landmarks, triggering the bypass rule."
+}

@@ -1,0 +1,11 @@
+{
+  "site_name": "cafepress.com",
+  "source_path": "site_sources/cafepress.com/source.html",
+  "injected_source_path": "injected_sites/cafepress.com/accesskeys/source.html",
+  "rule_md_path": "deque_md/accesskeys.md",
+  "rule": "accesskeys",
+  "a11y_error": "accesskeys",
+  "expected_rule_id": "accesskeys",
+  "injection_script_path": "injected_sites/cafepress.com/accesskeys/injection_script.js",
+  "rationale": "Inserts two visible links that share the same accesskey value ('g'), creating duplicate accesskeys and triggering the rule."
+}

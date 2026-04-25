@@ -1,0 +1,1 @@
+(function(){ var ul = document.createElement('ul'); ul.setAttribute('role','button'); ul.id = 'injected-bad-aria-role'; var li = document.createElement('li'); li.textContent = 'Injected list item'; ul.appendChild(li); document.body.appendChild(ul); })();

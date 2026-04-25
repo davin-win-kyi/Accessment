@@ -1,0 +1,1 @@
+(function(){ var bad = document.createElement('div'); bad.id = 'aria-allowed-attr-defect'; bad.setAttribute('role','button'); bad.setAttribute('aria-checked','true'); bad.textContent = 'Fake toggle button'; document.body.appendChild(bad); })();

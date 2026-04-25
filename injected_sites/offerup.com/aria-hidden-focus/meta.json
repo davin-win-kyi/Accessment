@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/aria-hidden-focus/source.html",
+  "rule_md_path": "deque_md/aria-hidden-focus.md",
+  "rule": "aria-hidden-focus",
+  "a11y_error": "aria-hidden-focus",
+  "expected_rule_id": "aria-hidden-focus",
+  "injection_script_path": "injected_sites/offerup.com/aria-hidden-focus/injection_script.js",
+  "rationale": "Adds a container with aria-hidden=\"true\" that contains a focusable button, triggering the rule that aria-hidden elements must not include focusable descendants."
+}

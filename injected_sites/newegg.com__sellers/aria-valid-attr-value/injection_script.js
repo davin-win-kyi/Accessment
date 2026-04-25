@@ -1,0 +1,1 @@
+(function(){var d=document;var bad=d.createElement('div');bad.id='a11y-bad-aria';bad.textContent='Special offers available now';bad.setAttribute('aria-hidden','pizza');bad.style.cssText='position:relative;padding:8px;margin:8px;background:#ffdede;color:#000;';d.body.appendChild(bad);}());

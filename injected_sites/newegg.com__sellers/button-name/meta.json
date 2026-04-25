@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/button-name/source.html",
+  "rule_md_path": "deque_md/button-name.md",
+  "rule": "button-name",
+  "a11y_error": "button-name",
+  "expected_rule_id": "button-name",
+  "injection_script_path": "injected_sites/newegg.com__sellers/button-name/injection_script.js",
+  "rationale": "Adds a focusable <button> with no text, aria-label, or aria-labelledby (only an aria-hidden icon), creating a button with no discernible name."
+}

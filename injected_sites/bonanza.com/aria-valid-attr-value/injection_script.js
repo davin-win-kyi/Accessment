@@ -1,0 +1,1 @@
+(function(){ var bad = document.createElement('div'); bad.id = 'bad-aria-hidden'; bad.setAttribute('aria-hidden', 'pizza'); bad.textContent = 'This element has an invalid aria-hidden value'; document.body.appendChild(bad); })();

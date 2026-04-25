@@ -1,0 +1,11 @@
+{
+  "site_name": "bonanza.com",
+  "source_path": "site_sources/bonanza.com/source.html",
+  "injected_source_path": "injected_sites/bonanza.com/aria-roledescription/source.html",
+  "rule_md_path": "deque_md/aria-roledescription.md",
+  "rule": "aria-roledescription",
+  "a11y_error": "aria-roledescription",
+  "expected_rule_id": "aria-roledescription",
+  "injection_script_path": "injected_sites/bonanza.com/aria-roledescription/injection_script.js",
+  "rationale": "Adds aria-roledescription to a generic div with no implicit or explicit role, which violates the rule requiring a valid role when using aria-roledescription."
+}

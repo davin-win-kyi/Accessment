@@ -1,0 +1,1 @@
+(function(){ var target = document.querySelector('#ajax-content-wrap') || document.body; var badUl = document.createElement('ul'); badUl.setAttribute('role','button'); badUl.id = 'invalid-aria-role-ul'; badUl.textContent = 'This list is incorrectly given role=\'button\''; target.appendChild(badUl); })();

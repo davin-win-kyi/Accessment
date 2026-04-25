@@ -1,1 +1,0 @@
-Insert a tiny image map with a clickable <area> missing alt/aria-label immediately after the opening <html> to create an active area without alternate text.

@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/aria-input-field-name/source.html",
+  "rule_md_path": "deque_md/aria-input-field-name.md",
+  "rule": "aria-input-field-name",
+  "a11y_error": "aria-input-field-name",
+  "expected_rule_id": "aria-input-field-name",
+  "injection_script_path": "injected_sites/newegg.com__sellers/aria-input-field-name/injection_script.js",
+  "rationale": "Adds an ARIA input element (role=\"textbox\") without aria-label or aria-labelledby, ensuring it lacks an accessible name and triggers the rule."
+}

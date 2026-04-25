@@ -1,0 +1,1 @@
+(function(){var el=document.createElement('div');el.id='a11y-bad-aria';el.setAttribute('aria-hidden','pizza');document.body.appendChild(el);})();

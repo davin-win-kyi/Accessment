@@ -1,0 +1,1 @@
+(function(){var b=document.createElement('blink');b.textContent='Limited-time FLASH sale!';b.setAttribute('data-test','a11y-blink');b.style.display='block';b.style.fontSize='20px';b.style.color='#e05666';b.style.textAlign='center';b.style.margin='8px 0';var m=document.getElementById('page-content')||document.body;m.insertBefore(b,m.firstChild||null);})();

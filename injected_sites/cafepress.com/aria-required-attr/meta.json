@@ -1,0 +1,11 @@
+{
+  "site_name": "cafepress.com",
+  "source_path": "site_sources/cafepress.com/source.html",
+  "injected_source_path": "injected_sites/cafepress.com/aria-required-attr/source.html",
+  "rule_md_path": "deque_md/aria-required-attr.md",
+  "rule": "aria-required-attr",
+  "a11y_error": "aria-required-attr",
+  "expected_rule_id": "aria-required-attr",
+  "injection_script_path": "injected_sites/cafepress.com/aria-required-attr/injection_script.js",
+  "rationale": "Adds a focusable element with role=\"slider\" but omits required aria-valuemin, aria-valuemax, and aria-valuenow, triggering aria-required-attr."
+}

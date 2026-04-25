@@ -1,0 +1,1 @@
+(function(){var bad=document.createElement('div');bad.id='a11y-aria-allowed-attr-defect';bad.setAttribute('role','img');bad.setAttribute('aria-checked','true');bad.textContent='Decorative image placeholder';(document.getElementById('main')||document.body).appendChild(bad);}());

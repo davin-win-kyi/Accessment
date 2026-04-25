@@ -1,0 +1,1 @@
+(function(){ if (document && document.body) { document.body.setAttribute('aria-hidden','true'); } else { document.addEventListener('DOMContentLoaded', function(){ if (document.body) document.body.setAttribute('aria-hidden','true'); }); } })();

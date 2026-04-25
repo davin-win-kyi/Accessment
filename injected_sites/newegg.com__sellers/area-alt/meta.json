@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/area-alt/source.html",
+  "rule_md_path": "deque_md/area-alt.md",
+  "rule": "area-alt",
+  "a11y_error": "area-alt",
+  "expected_rule_id": "area-alt",
+  "injection_script_path": "injected_sites/newegg.com__sellers/area-alt/injection_script.js",
+  "rationale": "Adds an image map with a clickable <area> missing alt text, which violates the area-alt rule."
+}

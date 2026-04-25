@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/blink/source.html",
+  "rule_md_path": "deque_md/blink.md",
+  "rule": "blink",
+  "a11y_error": "blink",
+  "expected_rule_id": "blink",
+  "injection_script_path": "injected_sites/newegg.com__sellers/blink/injection_script.js",
+  "rationale": "Adds a deprecated <blink> element to the DOM, which directly triggers the axe-core blink rule."
+}

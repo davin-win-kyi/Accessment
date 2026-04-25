@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/aria-hidden-focus/source.html",
+  "rule_md_path": "deque_md/aria-hidden-focus.md",
+  "rule": "aria-hidden-focus",
+  "a11y_error": "aria-hidden-focus",
+  "expected_rule_id": "aria-hidden-focus",
+  "injection_script_path": "injected_sites/newegg.com__sellers/aria-hidden-focus/injection_script.js",
+  "rationale": "Adds a focusable link inside an aria-hidden=true container, which violates the rule that aria-hidden elements must not contain focusable elements."
+}

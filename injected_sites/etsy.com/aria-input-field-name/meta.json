@@ -1,0 +1,11 @@
+{
+  "site_name": "etsy.com",
+  "source_path": "site_sources/etsy.com/source.html",
+  "injected_source_path": "injected_sites/etsy.com/aria-input-field-name/source.html",
+  "rule_md_path": "deque_md/aria-input-field-name.md",
+  "rule": "aria-input-field-name",
+  "a11y_error": "aria-input-field-name",
+  "expected_rule_id": "aria-input-field-name",
+  "injection_script_path": "injected_sites/etsy.com/aria-input-field-name/injection_script.js",
+  "rationale": "Adds a div with role=\"textbox\" whose aria-labelledby references a non-existent element, leaving it without an accessible name and triggering the rule."
+}

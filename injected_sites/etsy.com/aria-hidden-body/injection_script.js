@@ -1,0 +1,1 @@
+document.body.setAttribute('aria-hidden','true');

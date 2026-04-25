@@ -1,1 +1,0 @@
-Append an image map with a clickable <area> lacking alt/aria so axe flags area-alt.

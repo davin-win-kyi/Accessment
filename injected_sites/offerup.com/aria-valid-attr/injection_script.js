@@ -1,0 +1,1 @@
+(function(){try{var container=document.querySelector('main')||document.getElementById('page-content')||document.body;var badEl=document.createElement('div');badEl.id='invalid-aria-attr-test';badEl.textContent='Special offers available';badEl.setAttribute('aria-visible','true');container.insertBefore(badEl,container.firstChild);}catch(e){console.error(e);}})();

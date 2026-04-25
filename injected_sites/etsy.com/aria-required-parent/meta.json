@@ -1,0 +1,11 @@
+{
+  "site_name": "etsy.com",
+  "source_path": "site_sources/etsy.com/source.html",
+  "injected_source_path": "injected_sites/etsy.com/aria-required-parent/source.html",
+  "rule_md_path": "deque_md/aria-required-parent.md",
+  "rule": "aria-required-parent",
+  "a11y_error": "aria-required-parent",
+  "expected_rule_id": "aria-required-parent",
+  "injection_script_path": "injected_sites/etsy.com/aria-required-parent/injection_script.js",
+  "rationale": "Adds a role=\"menuitem\" directly under body without a parent with role=\"menu\" or \"menubar\", violating the required parent relationship."
+}

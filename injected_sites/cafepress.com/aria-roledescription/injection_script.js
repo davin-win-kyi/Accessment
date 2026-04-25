@@ -1,0 +1,1 @@
+(function(){var bad=document.createElement('div');bad.id='cp-aria-roledesc-error';bad.setAttribute('aria-roledescription','promotional banner');bad.textContent='Exclusive CafePress offer just for you!';document.body.appendChild(bad);}());

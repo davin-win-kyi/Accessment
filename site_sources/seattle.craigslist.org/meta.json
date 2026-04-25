@@ -1,0 +1,11 @@
+{
+  "url": "https://seattle.craigslist.org/",
+  "slug": "seattle.craigslist.org",
+  "timestamp_unix": 1776804432.121472,
+  "status": 200,
+  "final_url": "https://seattle.craigslist.org/",
+  "title": "craigslist: seattle jobs, apartments, for sale, services, community, and events",
+  "raw_response_path": "data/site_sources/seattle.craigslist.org/raw_response.html",
+  "rendered_dom_path": "data/site_sources/seattle.craigslist.org/source.html",
+  "screenshot_path": "data/site_sources/seattle.craigslist.org/page.png"
+}

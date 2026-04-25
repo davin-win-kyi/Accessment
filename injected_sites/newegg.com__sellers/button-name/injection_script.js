@@ -1,0 +1,1 @@
+(function(){var container=document.body||document.documentElement;var btn=document.createElement('button');btn.id='axe-empty-button';btn.type='button';var icon=document.createElement('i');icon.className='fa fa-cog';icon.setAttribute('aria-hidden','true');btn.appendChild(icon);container.appendChild(btn);})();

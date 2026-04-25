@@ -1,0 +1,11 @@
+{
+  "url": "https://offerup.com/",
+  "slug": "offerup.com",
+  "timestamp_unix": 1776804485.1559217,
+  "status": 200,
+  "final_url": "https://offerup.com/",
+  "title": "Buy & Sell Locally - OfferUp - Buy. Sell. Simple. - OfferUp",
+  "raw_response_path": "data/site_sources/offerup.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/offerup.com/source.html",
+  "screenshot_path": "data/site_sources/offerup.com/page.png"
+}

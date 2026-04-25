@@ -1,0 +1,11 @@
+{
+  "site_name": "news.ycombinator.com",
+  "source_path": "site_sources/news.ycombinator.com/source.html",
+  "injected_source_path": "injected_sites/news.ycombinator.com/aria-roledescription/source.html",
+  "rule_md_path": "deque_md/aria-roledescription.md",
+  "rule": "aria-roledescription",
+  "a11y_error": "aria-roledescription",
+  "expected_rule_id": "aria-roledescription",
+  "injection_script_path": "injected_sites/news.ycombinator.com/aria-roledescription/injection_script.js",
+  "rationale": "Adds aria-roledescription to a div that has no implicit or explicit ARIA role, violating the rule."
+}

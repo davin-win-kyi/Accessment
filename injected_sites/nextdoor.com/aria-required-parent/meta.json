@@ -1,0 +1,11 @@
+{
+  "site_name": "nextdoor.com",
+  "source_path": "site_sources/nextdoor.com/source.html",
+  "injected_source_path": "injected_sites/nextdoor.com/aria-required-parent/source.html",
+  "rule_md_path": "deque_md/aria-required-parent.md",
+  "rule": "aria-required-parent",
+  "a11y_error": "aria-required-parent",
+  "expected_rule_id": "aria-required-parent",
+  "injection_script_path": "injected_sites/nextdoor.com/aria-required-parent/injection_script.js",
+  "rationale": "Two elements use role=\"menuitem\" without a required parent role (menu or menubar), triggering aria-required-parent."
+}

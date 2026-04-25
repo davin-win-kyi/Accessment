@@ -1,0 +1,11 @@
+{
+  "site_name": "cafepress.com",
+  "source_path": "site_sources/cafepress.com/source.html",
+  "injected_source_path": "injected_sites/cafepress.com/button-name/source.html",
+  "rule_md_path": "deque_md/button-name.md",
+  "rule": "button-name",
+  "a11y_error": "button-name",
+  "expected_rule_id": "button-name",
+  "injection_script_path": "injected_sites/cafepress.com/button-name/injection_script.js",
+  "rationale": "Inserts a focusable <button> with no discernible text by using aria-labelledby that points to a non-existent element, triggering the button-name rule."
+}

@@ -1,0 +1,1 @@
+(function(){ var bad = document.createElement('div'); bad.id = 'bad-aria-hidden'; bad.textContent = 'Promotional content – should not be hidden'; bad.setAttribute('aria-hidden','rtue'); document.body.appendChild(bad); })();

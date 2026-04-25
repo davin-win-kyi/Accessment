@@ -1,0 +1,11 @@
+{
+  "url": "https://www.etsy.com/",
+  "slug": "etsy.com",
+  "timestamp_unix": 1776804414.9047618,
+  "status": 403,
+  "final_url": "https://www.etsy.com/",
+  "title": "etsy.com",
+  "raw_response_path": "data/site_sources/etsy.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/etsy.com/source.html",
+  "screenshot_path": "data/site_sources/etsy.com/page.png"
+}

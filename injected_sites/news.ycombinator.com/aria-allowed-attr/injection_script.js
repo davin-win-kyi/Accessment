@@ -1,0 +1,1 @@
+(function(){var loginLink=document.querySelector('a[href^="login"]');if(loginLink){loginLink.setAttribute('aria-checked','true');}else{var bad=document.createElement('a');bad.href='#';bad.textContent='Invalid ARIA link';bad.setAttribute('aria-checked','true');document.body.appendChild(bad);}})();

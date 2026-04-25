@@ -1,0 +1,11 @@
+{
+  "site_name": "etsy.com",
+  "source_path": "site_sources/etsy.com/source.html",
+  "injected_source_path": "injected_sites/etsy.com/aria-progressbar-name/source.html",
+  "rule_md_path": "deque_md/aria-progressbar-name.md",
+  "rule": "aria-progressbar-name",
+  "a11y_error": "aria-progressbar-name",
+  "expected_rule_id": "aria-progressbar-name",
+  "injection_script_path": "injected_sites/etsy.com/aria-progressbar-name/injection_script.js",
+  "rationale": "Adds a role=progressbar element with an empty aria-label, resulting in no accessible name and triggering aria-progressbar-name."
+}

@@ -1,0 +1,1 @@
+(function(){var badBtn=document.createElement('button');badBtn.type='button';badBtn.setAttribute('role','heading');badBtn.setAttribute('aria-level','2');badBtn.textContent='Welcome';document.body.appendChild(badBtn);})();

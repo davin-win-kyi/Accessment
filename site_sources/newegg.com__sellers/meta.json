@@ -1,0 +1,11 @@
+{
+  "url": "https://www.newegg.com/sellers/",
+  "slug": "newegg.com__sellers",
+  "timestamp_unix": 1776804532.742431,
+  "status": 200,
+  "final_url": "https://www.newegg.com/sellers/",
+  "title": "Newegg Marketplace \u2013 More Customers. Higher Sales. One Location. Low Commission Fees.",
+  "raw_response_path": "data/site_sources/newegg.com__sellers/raw_response.html",
+  "rendered_dom_path": "data/site_sources/newegg.com__sellers/source.html",
+  "screenshot_path": "data/site_sources/newegg.com__sellers/page.png"
+}

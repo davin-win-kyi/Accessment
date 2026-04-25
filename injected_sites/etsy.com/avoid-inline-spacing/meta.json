@@ -1,0 +1,11 @@
+{
+  "site_name": "etsy.com",
+  "source_path": "site_sources/etsy.com/source.html",
+  "injected_source_path": "injected_sites/etsy.com/avoid-inline-spacing/source.html",
+  "rule_md_path": "deque_md/avoid-inline-spacing.md",
+  "rule": "avoid-inline-spacing",
+  "a11y_error": "avoid-inline-spacing",
+  "expected_rule_id": "avoid-inline-spacing",
+  "injection_script_path": "injected_sites/etsy.com/avoid-inline-spacing/injection_script.js",
+  "rationale": "Adds a paragraph with inline spacing properties marked !important, which prevents user stylesheets from adjusting text spacing and triggers the rule."
+}

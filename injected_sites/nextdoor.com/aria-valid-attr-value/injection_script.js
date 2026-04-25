@@ -1,0 +1,1 @@
+(function(){var bad=document.createElement('div');bad.id='a11y-invalid-aria-value';bad.setAttribute('role','checkbox');bad.setAttribute('tabindex','0');bad.setAttribute('aria-checked','sometimes');bad.style.margin='8px';bad.textContent='Example checkbox with invalid aria-checked value';document.body.insertBefore(bad, document.body.firstChild);})();

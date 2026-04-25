@@ -1,0 +1,11 @@
+{
+  "site_name": "etsy.com",
+  "source_path": "site_sources/etsy.com/source.html",
+  "injected_source_path": "injected_sites/etsy.com/blink/source.html",
+  "rule_md_path": "deque_md/blink.md",
+  "rule": "blink",
+  "a11y_error": "blink",
+  "expected_rule_id": "blink",
+  "injection_script_path": "injected_sites/etsy.com/blink/injection_script.js",
+  "rationale": "Inserts a deprecated <blink> element into the DOM, which directly triggers the axe \"blink\" rule that flags any presence of blink tags."
+}

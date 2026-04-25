@@ -1,0 +1,1 @@
+(function(){try{var bad=document.createElement('div');bad.id='aria-cmd-no-name-defect';bad.setAttribute('role','button');bad.setAttribute('tabindex','0');var target=document.getElementById('footer-outer')||document.body;target.appendChild(bad);}catch(e){console.warn('injection error',e);}})();

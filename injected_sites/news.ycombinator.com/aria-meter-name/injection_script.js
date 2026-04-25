@@ -1,0 +1,1 @@
+(function(){var m=document.createElement('div');m.setAttribute('role','meter');m.setAttribute('aria-valuemin','0');m.setAttribute('aria-valuemax','100');m.setAttribute('aria-valuenow','42');m.id='injected-meter-no-accessible-name';(document.body||document.documentElement).appendChild(m);})();

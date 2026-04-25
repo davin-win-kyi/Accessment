@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/aria-treeitem-name/source.html",
+  "rule_md_path": "deque_md/aria-treeitem-name.md",
+  "rule": "aria-treeitem-name",
+  "a11y_error": "aria-treeitem-name",
+  "expected_rule_id": "aria-treeitem-name",
+  "injection_script_path": "injected_sites/mercari.com/aria-treeitem-name/injection_script.js",
+  "rationale": "Inserts a tree with a treeitem that has no text, aria-label, or aria-labelledby, ensuring the treeitem lacks an accessible name and triggers the rule."
+}

@@ -1,0 +1,1 @@
+(function(){var container=document.querySelector('main')||document.body;var el=document.createElement('div');el.setAttribute('role','button');el.setAttribute('aria-visible','true');el.textContent='Shop Deals';container.appendChild(el);}());

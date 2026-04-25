@@ -1,0 +1,11 @@
+{
+  "site_name": "news.ycombinator.com",
+  "source_path": "site_sources/news.ycombinator.com/source.html",
+  "injected_source_path": "injected_sites/news.ycombinator.com/aria-valid-attr/source.html",
+  "rule_md_path": "deque_md/aria-valid-attr.md",
+  "rule": "aria-valid-attr",
+  "a11y_error": "aria-valid-attr",
+  "expected_rule_id": "aria-valid-attr",
+  "injection_script_path": "injected_sites/news.ycombinator.com/aria-valid-attr/injection_script.js",
+  "rationale": "Sets an invalid ARIA attribute (aria-visible) on the body element, which violates the requirement that ARIA attribute names must be valid."
+}

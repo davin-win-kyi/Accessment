@@ -1,0 +1,11 @@
+{
+  "site_name": "news.ycombinator.com",
+  "source_path": "site_sources/news.ycombinator.com/source.html",
+  "injected_source_path": "injected_sites/news.ycombinator.com/aria-command-name/source.html",
+  "rule_md_path": "deque_md/aria-command-name.md",
+  "rule": "aria-command-name",
+  "a11y_error": "aria-command-name",
+  "expected_rule_id": "aria-command-name",
+  "injection_script_path": "injected_sites/news.ycombinator.com/aria-command-name/injection_script.js",
+  "rationale": "Inserts a div with role=button and no text, aria-label, aria-labelledby, or title, creating a command element without an accessible name."
+}

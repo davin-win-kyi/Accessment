@@ -1,0 +1,11 @@
+{
+  "site_name": "bonanza.com",
+  "source_path": "site_sources/bonanza.com/source.html",
+  "injected_source_path": "injected_sites/bonanza.com/autocomplete-valid/source.html",
+  "rule_md_path": "deque_md/autocomplete-valid.md",
+  "rule": "autocomplete-valid",
+  "a11y_error": "autocomplete-valid",
+  "expected_rule_id": "autocomplete-valid",
+  "injection_script_path": "injected_sites/bonanza.com/autocomplete-valid/injection_script.js",
+  "rationale": "Sets an invalid autocomplete value (\"emial\") on a personal data field, causing the autocomplete-valid rule to fail."
+}

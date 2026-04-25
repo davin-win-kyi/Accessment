@@ -1,0 +1,1 @@
+(function(){var defect=document.createElement('div');defect.id='a11y-defect-checkbox';defect.setAttribute('role','checkbox');defect.textContent='Receive notifications';defect.style.display='block';defect.style.padding='8px';defect.style.margin='8px 0';defect.style.border='1px solid #ccc';var target=document.body;target.insertBefore(defect,target.firstChild);})();

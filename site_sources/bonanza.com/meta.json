@@ -1,0 +1,11 @@
+{
+  "url": "https://www.bonanza.com/",
+  "slug": "bonanza.com",
+  "timestamp_unix": 1776804465.1205153,
+  "status": 200,
+  "final_url": "https://www.bonanza.com/",
+  "title": "Bonanza :: Find everything but the ordinary",
+  "raw_response_path": "data/site_sources/bonanza.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/bonanza.com/source.html",
+  "screenshot_path": "data/site_sources/bonanza.com/page.png"
+}

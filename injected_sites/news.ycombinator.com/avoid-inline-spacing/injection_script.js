@@ -1,0 +1,1 @@
+var p = document.createElement('p'); p.id = 'inline-spacing-fail'; p.setAttribute('style', 'line-height: 1.5 !important;'); p.textContent = 'This paragraph forces line-height with !important, preventing user stylesheets from adjusting text spacing.'; document.body.appendChild(p);

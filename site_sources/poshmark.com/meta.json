@@ -1,0 +1,11 @@
+{
+  "url": "https://poshmark.com/",
+  "slug": "poshmark.com",
+  "timestamp_unix": 1776804447.3396618,
+  "status": 200,
+  "final_url": "https://poshmark.com/",
+  "title": "Poshmark: Buy and sell fashion, home decor, beauty & more",
+  "raw_response_path": "data/site_sources/poshmark.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/poshmark.com/source.html",
+  "screenshot_path": "data/site_sources/poshmark.com/page.png"
+}

@@ -1,0 +1,1 @@
+(function(){ var bad = document.createElement('div'); bad.id='a11y-bad-aria-allowed-attr'; bad.setAttribute('role','img'); bad.setAttribute('aria-checked','true'); bad.textContent='Decorative image (invalid ARIA for demo)'; document.body.appendChild(bad); })();

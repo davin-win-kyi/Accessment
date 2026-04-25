@@ -1,0 +1,11 @@
+{
+  "site_name": "bonanza.com",
+  "source_path": "site_sources/bonanza.com/source.html",
+  "injected_source_path": "injected_sites/bonanza.com/aria-valid-attr-value/source.html",
+  "rule_md_path": "deque_md/aria-valid-attr-value.md",
+  "rule": "aria-valid-attr-value",
+  "a11y_error": "aria-valid-attr-value",
+  "expected_rule_id": "aria-valid-attr-value",
+  "injection_script_path": "injected_sites/bonanza.com/aria-valid-attr-value/injection_script.js",
+  "rationale": "Introduces a global ARIA attribute (aria-hidden) with an invalid token value ('pizza'), which violates the allowed values ('true', 'false', or 'undefined') and triggers aria-valid-attr-value."
+}

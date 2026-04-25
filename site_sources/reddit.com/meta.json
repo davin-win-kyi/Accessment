@@ -1,0 +1,11 @@
+{
+  "url": "https://www.reddit.com/",
+  "slug": "reddit.com",
+  "timestamp_unix": 1776804559.891156,
+  "status": 200,
+  "final_url": "https://www.reddit.com/?solution=ce509c8c6812f94ece509c8c6812f94e&js_challenge=1&token=bbbe4bf1c9a2b5160829c4be34da586122a3adcfcc6e3729a1916a3ef602461e&jsc_orig_r=",
+  "title": "Reddit - The heart of the internet",
+  "raw_response_path": null,
+  "rendered_dom_path": "data/site_sources/reddit.com/source.html",
+  "screenshot_path": "data/site_sources/reddit.com/page.png"
+}

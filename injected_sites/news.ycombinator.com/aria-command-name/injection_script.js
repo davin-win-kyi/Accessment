@@ -1,0 +1,1 @@
+(() => { const bad = document.createElement('div'); bad.setAttribute('role','button'); bad.style.display = 'block'; bad.style.width = '12px'; bad.style.height = '12px'; bad.style.margin = '8px 0'; const container = document.querySelector('#hnmain') || document.body; container.appendChild(bad); })();

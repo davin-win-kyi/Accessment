@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/aria-required-attr/source.html",
+  "rule_md_path": "deque_md/aria-required-attr.md",
+  "rule": "aria-required-attr",
+  "a11y_error": "aria-required-attr",
+  "expected_rule_id": "aria-required-attr",
+  "injection_script_path": "injected_sites/mercari.com/aria-required-attr/injection_script.js",
+  "rationale": "Adds a checkbox role without the required aria-checked attribute, triggering the aria-required-attr rule."
+}

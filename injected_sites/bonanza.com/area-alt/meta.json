@@ -1,0 +1,11 @@
+{
+  "site_name": "bonanza.com",
+  "source_path": "site_sources/bonanza.com/source.html",
+  "injected_source_path": "injected_sites/bonanza.com/area-alt/source.html",
+  "rule_md_path": "deque_md/area-alt.md",
+  "rule": "area-alt",
+  "a11y_error": "area-alt",
+  "expected_rule_id": "area-alt",
+  "injection_script_path": "injected_sites/bonanza.com/area-alt/injection_script.js",
+  "rationale": "Injected an image map with an active <area> lacking alt or ARIA text, which directly violates area-alt."
+}

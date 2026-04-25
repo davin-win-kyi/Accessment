@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/aria-meter-name/source.html",
+  "rule_md_path": "deque_md/aria-meter-name.md",
+  "rule": "aria-meter-name",
+  "a11y_error": "aria-meter-name",
+  "expected_rule_id": "aria-meter-name",
+  "injection_script_path": "injected_sites/mercari.com/aria-meter-name/injection_script.js",
+  "rationale": "Adds a role=\"meter\" element without aria-label, aria-labelledby, or title, so it lacks an accessible name and triggers aria-meter-name."
+}

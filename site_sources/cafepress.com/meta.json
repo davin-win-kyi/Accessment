@@ -1,0 +1,11 @@
+{
+  "url": "https://www.cafepress.com/",
+  "slug": "cafepress.com",
+  "timestamp_unix": 1776804523.0595896,
+  "status": 200,
+  "final_url": "https://www.cafepress.com/",
+  "title": "CafePress | Best merchandise to express yourself",
+  "raw_response_path": "data/site_sources/cafepress.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/cafepress.com/source.html",
+  "screenshot_path": "data/site_sources/cafepress.com/page.png"
+}

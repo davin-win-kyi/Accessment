@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/aria-valid-attr-value/source.html",
+  "rule_md_path": "deque_md/aria-valid-attr-value.md",
+  "rule": "aria-valid-attr-value",
+  "a11y_error": "aria-valid-attr-value",
+  "expected_rule_id": "aria-valid-attr-value",
+  "injection_script_path": "injected_sites/mercari.com/aria-valid-attr-value/injection_script.js",
+  "rationale": "Adds a div with aria-hidden set to an invalid token (rtue), violating the required true/false/undefined values."
+}

@@ -1,0 +1,1 @@
+(function(){var target=document.getElementById('hnmain')||document.body||document.documentElement;if(target){target.setAttribute('role','notarole');}})();

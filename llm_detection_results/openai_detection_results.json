@@ -1,0 +1,46 @@
+[
+  {
+    "detected_errors": [],
+    "reasoning": "ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/davin123/Accessment/4_detection_benchmark.py\", line 157, in main\n    detector_output = detector.detect(html)\n  File \"/home/davin123/Accessment/providers/openai_detector.py\", line 23, in detect\n    response = self.client.responses.create(\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/resources/responses/responses.py\", line 917, in create\n    return self._post(\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/_base_client.py\", line 1314, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/_base_client.py\", line 1087, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}\n",
+    "true_error": "accesskeys",
+    "site_name": "bonanza.com",
+    "rule": "accesskeys",
+    "injected_path": "injected_sites/bonanza.com/accesskeys/source.html",
+    "source_path": "site_sources/bonanza.com/source.html",
+    "detected_expected_error": false
+  },
+  {
+    "detected_errors": [],
+    "reasoning": "ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/davin123/Accessment/4_detection_benchmark.py\", line 157, in main\n    detector_output = detector.detect(html)\n  File \"/home/davin123/Accessment/providers/openai_detector.py\", line 23, in detect\n    response = self.client.responses.create(\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/resources/responses/responses.py\", line 917, in create\n    return self._post(\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/_base_client.py\", line 1314, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/_base_client.py\", line 1087, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}\n",
+    "true_error": "area-alt",
+    "site_name": "bonanza.com",
+    "rule": "area-alt",
+    "injected_path": "injected_sites/bonanza.com/area-alt/source.html",
+    "source_path": "site_sources/bonanza.com/source.html",
+    "detected_expected_error": false
+  },
+  {
+    "detected_errors": [],
+    "reasoning": "ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/davin123/Accessment/4_detection_benchmark.py\", line 157, in main\n    detector_output = detector.detect(html)\n  File \"/home/davin123/Accessment/providers/openai_detector.py\", line 23, in detect\n    response = self.client.responses.create(\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/resources/responses/responses.py\", line 917, in create\n    return self._post(\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/_base_client.py\", line 1314, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/_base_client.py\", line 1087, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}\n",
+    "true_error": "aria-allowed-attr",
+    "site_name": "bonanza.com",
+    "rule": "aria-allowed-attr",
+    "injected_path": "injected_sites/bonanza.com/aria-allowed-attr/source.html",
+    "source_path": "site_sources/bonanza.com/source.html",
+    "detected_expected_error": false
+  },
+  {
+    "detected_errors": [],
+    "reasoning": "ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/davin123/Accessment/4_detection_benchmark.py\", line 157, in main\n    detector_output = detector.detect(html)\n  File \"/home/davin123/Accessment/providers/openai_detector.py\", line 23, in detect\n    response = self.client.responses.create(\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/resources/responses/responses.py\", line 917, in create\n    return self._post(\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/_base_client.py\", line 1314, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n  File \"/home/davin123/anaconda3/envs/a11y-benchmark-gpt/lib/python3.10/site-packages/openai/_base_client.py\", line 1087, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}\n",
+    "true_error": "aria-allowed-role",
+    "site_name": "bonanza.com",
+    "rule": "aria-allowed-role",
+    "injected_path": "injected_sites/bonanza.com/aria-allowed-role/source.html",
+    "source_path": "site_sources/bonanza.com/source.html",
+    "detected_expected_error": false
+  }
+]

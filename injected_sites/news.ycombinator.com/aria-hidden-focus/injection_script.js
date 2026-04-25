@@ -1,0 +1,1 @@
+(function(){var c=document.createElement('div');c.setAttribute('aria-hidden','true');var b=document.createElement('button');b.textContent='Focusable inside aria-hidden';c.appendChild(b);document.body.appendChild(c);})();

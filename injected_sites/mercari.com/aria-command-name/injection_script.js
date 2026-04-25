@@ -1,0 +1,2 @@
+(function(){var root=document.querySelector('main')||document.body;var bad=document.createElement('div');bad.id='aria-command-name-defect';bad.setAttribute('role','button');bad.setAttribute('tabindex','0');bad.setAttribute('aria-label','');bad.style.display='block';bad.style.width='160px';bad.style.height='44px';bad.style.margin='16px';bad.style.border='2px solid red';// intentionally no inner text to keep accessible name empty
+root.appendChild(bad);}());

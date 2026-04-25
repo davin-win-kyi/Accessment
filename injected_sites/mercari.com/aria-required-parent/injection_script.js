@@ -1,0 +1,1 @@
+(function(){var orphan=document.createElement('div');orphan.id='orphan-tab';orphan.setAttribute('role','tab');orphan.setAttribute('aria-selected','false');orphan.tabIndex=-1;orphan.textContent='Orphan Tab (no tablist parent)';document.body.appendChild(orphan);})();

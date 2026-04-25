@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/aria-text/source.html",
+  "rule_md_path": "deque_md/aria-text.md",
+  "rule": "aria-text",
+  "a11y_error": "aria-text",
+  "expected_rule_id": "aria-text",
+  "injection_script_path": "injected_sites/newegg.com__sellers/aria-text/injection_script.js",
+  "rationale": "Adds an element with role=\"text\" that contains a focusable link, violating the rule that role=\"text\" must not have focusable descendants."
+}

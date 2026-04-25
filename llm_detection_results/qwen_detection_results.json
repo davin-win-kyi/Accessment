@@ -1,0 +1,41 @@
+[
+  {
+    "detected_errors": [
+      "missing_alt_text",
+      "inaccessible_form_controls"
+    ],
+    "reasoning": "The HTML contains an image element without an alt attribute (missing_alt_text) and form controls lacking proper labels or ARIA attributes (inaccessible_form_controls)",
+    "true_error": "accesskeys",
+    "site_name": "bonanza.com",
+    "rule": "accesskeys",
+    "injected_path": "injected_sites/bonanza.com/accesskeys/source.html",
+    "source_path": "site_sources/bonanza.com/source.html",
+    "detected_expected_error": false,
+    "_raw_text": "{\"detected_errors\": [\"missing_alt_text\", \"inaccessible_form_controls\"], \"reasoning\": \"The HTML contains an image element without an alt attribute (missing_alt_text) and form controls lacking proper labels or ARIA attributes (inaccessible_form_controls)\"}"
+  },
+  {
+    "detected_errors": [],
+    "reasoning": "The HTML provided appears to be a page from Bonanza.com with multiple script tags for analytics and tracking. No accessibility issues are directly indicated by the HTML structure alone, as no semantic markup violations, missing ARIA attributes, or other accessibility barriers are present in the code snippet provided.",
+    "true_error": "area-alt",
+    "site_name": "bonanza.com",
+    "rule": "area-alt",
+    "injected_path": "injected_sites/bonanza.com/area-alt/source.html",
+    "source_path": "site_sources/bonanza.com/source.html",
+    "detected_expected_error": false,
+    "_raw_text": "{\n  \"detected_errors\": [],\n  \"reasoning\": \"The HTML provided appears to be a page from Bonanza.com with multiple script tags for analytics and tracking. No accessibility issues are directly indicated by the HTML structure alone, as no semantic markup violations, missing ARIA attributes, or other accessibility barriers are present in the code snippet provided.\"\n}"
+  },
+  {
+    "detected_errors": [
+      "multiple_third_party_scripts",
+      "insecure_script_sources"
+    ],
+    "reasoning": "The HTML contains multiple third-party scripts (analytics, tracking, ads) without clear user control, and some scripts are loaded from non-HTTPS sources which could compromise security.",
+    "true_error": "aria-allowed-attr",
+    "site_name": "bonanza.com",
+    "rule": "aria-allowed-attr",
+    "injected_path": "injected_sites/bonanza.com/aria-allowed-attr/source.html",
+    "source_path": "site_sources/bonanza.com/source.html",
+    "detected_expected_error": false,
+    "_raw_text": "{\n  \"detected_errors\": [\"multiple_third_party_scripts\", \"insecure_script_sources\"],\n  \"reasoning\": \"The HTML contains multiple third-party scripts (analytics, tracking, ads) without clear user control, and some scripts are loaded from non-HTTPS sources which could compromise security.\"\n}"
+  }
+]

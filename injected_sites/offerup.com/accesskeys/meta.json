@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/accesskeys/source.html",
+  "rule_md_path": "deque_md/accesskeys.md",
+  "rule": "accesskeys",
+  "a11y_error": "accesskeys",
+  "expected_rule_id": "accesskeys",
+  "injection_script_path": "injected_sites/offerup.com/accesskeys/injection_script.js",
+  "rationale": "Assigns the same accesskey value to two elements (header and footer logo links or injected links), creating duplicate accesskey values and triggering the accesskeys rule."
+}

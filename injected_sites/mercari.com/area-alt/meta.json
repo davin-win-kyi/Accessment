@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/area-alt/source.html",
+  "rule_md_path": "deque_md/area-alt.md",
+  "rule": "area-alt",
+  "a11y_error": "area-alt",
+  "expected_rule_id": "area-alt",
+  "injection_script_path": "injected_sites/mercari.com/area-alt/injection_script.js",
+  "rationale": "Adds a client-side image map where active <area> elements lack accessible names (no alt/aria) to trigger area-alt."
+}

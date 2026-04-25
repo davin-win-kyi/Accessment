@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/checkboxgroup/source.html",
+  "rule_md_path": "deque_md/checkboxgroup.md",
+  "rule": "checkboxgroup",
+  "a11y_error": "checkboxgroup",
+  "expected_rule_id": "checkboxgroup",
+  "injection_script_path": "injected_sites/mercari.com/checkboxgroup/injection_script.js",
+  "rationale": "Injects three checkboxes that share the same name without a fieldset/legend, role=\"group\", or shared aria-labelledby, triggering the checkboxgroup rule."
+}

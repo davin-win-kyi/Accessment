@@ -1,0 +1,1 @@
+(function(){var p=document.createElement('p');p.id='fail-inline-spacing';p.setAttribute('style','letter-spacing: 0.25rem !important; word-spacing: 1ch !important; line-height: 1.2 !important;');p.textContent='This paragraph uses forced inline text spacing, preventing users from adjusting spacing with their own styles.';document.body.appendChild(p);}());

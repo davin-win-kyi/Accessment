@@ -1,0 +1,11 @@
+{
+  "url": "https://www.ebay.com/",
+  "slug": "ebay.com",
+  "timestamp_unix": 1776804550.0002809,
+  "status": 200,
+  "final_url": "https://www.ebay.com/",
+  "title": "Electronics, Cars, Fashion, Collectibles & More | eBay",
+  "raw_response_path": "data/site_sources/ebay.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/ebay.com/source.html",
+  "screenshot_path": "data/site_sources/ebay.com/page.png"
+}

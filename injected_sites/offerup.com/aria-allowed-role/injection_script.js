@@ -1,0 +1,1 @@
+(function(){var container=document.querySelector('main')||document.getElementById('page-content')||document.body;var badBtn=document.createElement('button');badBtn.textContent='Invalid heading button';badBtn.setAttribute('role','heading');badBtn.setAttribute('aria-level','2');badBtn.id='a11y-bad-role-button';container.appendChild(badBtn);})();

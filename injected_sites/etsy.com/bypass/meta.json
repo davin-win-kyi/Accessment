@@ -1,0 +1,11 @@
+{
+  "site_name": "etsy.com",
+  "source_path": "site_sources/etsy.com/source.html",
+  "injected_source_path": "injected_sites/etsy.com/bypass/source.html",
+  "rule_md_path": "deque_md/bypass.md",
+  "rule": "bypass",
+  "a11y_error": "bypass",
+  "expected_rule_id": "bypass",
+  "injection_script_path": "injected_sites/etsy.com/bypass/injection_script.js",
+  "rationale": "Removes headings, skip links, and landmark regions, then adds a large repeated block of links without a main landmark. With no skip link, heading, or landmark present, the page lacks a way to bypass repeated blocks, triggering the bypass rule."
+}

@@ -9,9 +9,26 @@ from playwright.sync_api import sync_playwright
 OUT_DIR = Path("data/site_sources")
 
 SITES = [
-    "https://www.amazon.com/",
-    "https://www.walmart.com/",
-    "https://www.youtube.com/",
+    "https://www.etsy.com/",
+    "https://shopgoodwill.com/",
+    "https://seattle.craigslist.org/",
+    "https://news.ycombinator.com/",
+    "https://poshmark.com/",
+    "https://www.mercari.com/",
+    "https://www.bonanza.com/",
+    "https://reverb.com/",
+    "https://offerup.com/",
+    "https://nextdoor.com/",
+    "https://untappd.com/",
+    "https://society6.com/",
+    "https://www.cafepress.com/",
+    "https://www.newegg.com/sellers/",
+    "https://www.overstock.com/",
+    "https://www.ebay.com/",
+    "https://www.reddit.com/",
+    "https://www.meetup.com/",
+    "https://www.tumblr.com/",
+    "https://seattle.craigslist.org/search/oly/ccc",
 ]
 
 USER_AGENT = (

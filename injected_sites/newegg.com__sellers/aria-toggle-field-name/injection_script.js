@@ -1,0 +1,1 @@
+(function(){var sw=document.createElement('div');sw.id='injected-aria-switch-no-name';sw.setAttribute('role','switch');sw.setAttribute('aria-checked','true');sw.setAttribute('tabindex','0');var s1=document.createElement('span');var s2=document.createElement('span');sw.appendChild(s1);sw.appendChild(s2);(document.body||document.documentElement).appendChild(sw);})();

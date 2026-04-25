@@ -1,0 +1,11 @@
+{
+  "site_name": "bonanza.com",
+  "source_path": "site_sources/bonanza.com/source.html",
+  "injected_source_path": "injected_sites/bonanza.com/aria-allowed-role/source.html",
+  "rule_md_path": "deque_md/aria-allowed-role.md",
+  "rule": "aria-allowed-role",
+  "a11y_error": "aria-allowed-role",
+  "expected_rule_id": "aria-allowed-role",
+  "injection_script_path": "injected_sites/bonanza.com/aria-allowed-role/injection_script.js",
+  "rationale": "Adds a ul element with role=\"button\", which is not an allowed role for ul, triggering the aria-allowed-role violation."
+}

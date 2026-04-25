@@ -1,0 +1,1 @@
+(function(){var s=document.createElement('div');s.setAttribute('role','slider');s.id='a11y-bad-slider';s.tabIndex=0;s.style.cssText='margin:16px;padding:8px;background:#eee;border:1px solid #ccc;';s.textContent='Price range slider control';document.body.appendChild(s);})();

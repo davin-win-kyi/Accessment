@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/aria-dialog-name/source.html",
+  "rule_md_path": "deque_md/aria-dialog-name.md",
+  "rule": "aria-dialog-name",
+  "a11y_error": "aria-dialog-name",
+  "expected_rule_id": "aria-dialog-name",
+  "injection_script_path": "injected_sites/offerup.com/aria-dialog-name/injection_script.js",
+  "rationale": "Adds a role=dialog without a valid aria-label, aria-labelledby, or title, guaranteeing no accessible name and triggering aria-dialog-name."
+}

@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/aria-required-children/source.html",
+  "rule_md_path": "deque_md/aria-required-children.md",
+  "rule": "aria-required-children",
+  "a11y_error": "aria-required-children",
+  "expected_rule_id": "aria-required-children",
+  "injection_script_path": "injected_sites/offerup.com/aria-required-children/injection_script.js",
+  "rationale": "Creates a container with role=\"tablist\" but no descendants with role=\"tab\", violating the required-children condition."
+}

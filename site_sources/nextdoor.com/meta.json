@@ -1,0 +1,11 @@
+{
+  "url": "https://nextdoor.com/",
+  "slug": "nextdoor.com",
+  "timestamp_unix": 1776804494.9019632,
+  "status": 200,
+  "final_url": "https://nextdoor.com/",
+  "title": "Nextdoor",
+  "raw_response_path": "data/site_sources/nextdoor.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/nextdoor.com/source.html",
+  "screenshot_path": "data/site_sources/nextdoor.com/page.png"
+}

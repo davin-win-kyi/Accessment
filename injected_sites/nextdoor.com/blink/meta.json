@@ -1,0 +1,11 @@
+{
+  "site_name": "nextdoor.com",
+  "source_path": "site_sources/nextdoor.com/source.html",
+  "injected_source_path": "injected_sites/nextdoor.com/blink/source.html",
+  "rule_md_path": "deque_md/blink.md",
+  "rule": "blink",
+  "a11y_error": "blink",
+  "expected_rule_id": "blink",
+  "injection_script_path": "injected_sites/nextdoor.com/blink/injection_script.js",
+  "rationale": "Adds a deprecated <blink> element to the page so the axe-core 'blink' rule is violated."
+}

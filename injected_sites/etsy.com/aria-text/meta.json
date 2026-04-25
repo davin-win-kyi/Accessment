@@ -1,0 +1,11 @@
+{
+  "site_name": "etsy.com",
+  "source_path": "site_sources/etsy.com/source.html",
+  "injected_source_path": "injected_sites/etsy.com/aria-text/source.html",
+  "rule_md_path": "deque_md/aria-text.md",
+  "rule": "aria-text",
+  "a11y_error": "aria-text",
+  "expected_rule_id": "aria-text",
+  "injection_script_path": "injected_sites/etsy.com/aria-text/injection_script.js",
+  "rationale": "Creates an element with role=\"text\" that contains a focusable descendant (a link with tabindex=0), which violates the rule."
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://news.ycombinator.com/",
+  "slug": "news.ycombinator.com",
+  "timestamp_unix": 1776804439.6965702,
+  "status": 200,
+  "final_url": "https://news.ycombinator.com/",
+  "title": "Hacker News",
+  "raw_response_path": "data/site_sources/news.ycombinator.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/news.ycombinator.com/source.html",
+  "screenshot_path": "data/site_sources/news.ycombinator.com/page.png"
+}

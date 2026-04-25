@@ -1,0 +1,11 @@
+{
+  "site_name": "cafepress.com",
+  "source_path": "site_sources/cafepress.com/source.html",
+  "injected_source_path": "injected_sites/cafepress.com/aria-roles/source.html",
+  "rule_md_path": "deque_md/aria-roles.md",
+  "rule": "aria-roles",
+  "a11y_error": "aria-roles",
+  "expected_rule_id": "aria-roles",
+  "injection_script_path": "injected_sites/cafepress.com/aria-roles/injection_script.js",
+  "rationale": "Injects an element with an invalid ARIA role value ('navigtion'), which violates the requirement that role values must be valid and not abstract, triggering the aria-roles rule."
+}

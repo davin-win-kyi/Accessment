@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/aria-dialog-name/source.html",
+  "rule_md_path": "deque_md/aria-dialog-name.md",
+  "rule": "aria-dialog-name",
+  "a11y_error": "aria-dialog-name",
+  "expected_rule_id": "aria-dialog-name",
+  "injection_script_path": "injected_sites/newegg.com__sellers/aria-dialog-name/injection_script.js",
+  "rationale": "Inserts a div with role=\"dialog\" and aria-labelledby referencing a non-existent id, creating a dialog without an accessible name to trigger aria-dialog-name."
+}

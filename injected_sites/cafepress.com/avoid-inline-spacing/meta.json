@@ -1,0 +1,11 @@
+{
+  "site_name": "cafepress.com",
+  "source_path": "site_sources/cafepress.com/source.html",
+  "injected_source_path": "injected_sites/cafepress.com/avoid-inline-spacing/source.html",
+  "rule_md_path": "deque_md/avoid-inline-spacing.md",
+  "rule": "avoid-inline-spacing",
+  "a11y_error": "avoid-inline-spacing",
+  "expected_rule_id": "avoid-inline-spacing",
+  "injection_script_path": "injected_sites/cafepress.com/avoid-inline-spacing/injection_script.js",
+  "rationale": "Adds visible text with inline line-height, letter-spacing, and word-spacing declared with !important, preventing custom stylesheet adjustments and triggering avoid-inline-spacing."
+}

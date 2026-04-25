@@ -1,0 +1,1 @@
+(function(){var t=document.createElement('div');t.setAttribute('role','tooltip');t.id='hn-aria-tooltip-empty';t.setAttribute('aria-label','');(document.body||document.documentElement).appendChild(t);})();

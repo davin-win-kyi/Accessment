@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/aria-required-parent/source.html",
+  "rule_md_path": "deque_md/aria-required-parent.md",
+  "rule": "aria-required-parent",
+  "a11y_error": "aria-required-parent",
+  "expected_rule_id": "aria-required-parent",
+  "injection_script_path": "injected_sites/newegg.com__sellers/aria-required-parent/injection_script.js",
+  "rationale": "Adds an element with role=menuitem that is not contained within a role=menu or role=menubar, violating aria-required-parent."
+}

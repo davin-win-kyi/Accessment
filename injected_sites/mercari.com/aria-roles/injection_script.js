@@ -1,0 +1,1 @@
+(function(){var container=document.getElementById('main')||document.body;var el=document.createElement('div');el.id='invalid-aria-role-test';el.setAttribute('role','notarole');el.textContent='This element has an invalid ARIA role.';container.appendChild(el);})();

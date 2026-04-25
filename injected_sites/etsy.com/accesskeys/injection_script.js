@@ -1,0 +1,20 @@
+(function(){
+  var body = document.body || document.documentElement;
+  var existing = document.getElementById('dup-accesskey-test');
+  if (existing && existing.parentNode) existing.parentNode.removeChild(existing);
+  var container = document.createElement('div');
+  container.id = 'dup-accesskey-test';
+  container.setAttribute('role','navigation');
+  var link = document.createElement('a');
+  link.href = '#shop';
+  link.textContent = 'Shop';
+  link.setAttribute('accesskey','s');
+  var btn = document.createElement('button');
+  btn.type = 'button';
+  btn.textContent = 'Search';
+  btn.setAttribute('accesskey','s');
+  container.appendChild(link);
+  container.appendChild(document.createTextNode(' '));
+  container.appendChild(btn);
+  body.insertBefore(container, body.firstChild || null);
+})();

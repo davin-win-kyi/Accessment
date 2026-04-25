@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/aria-required-children/source.html",
+  "rule_md_path": "deque_md/aria-required-children.md",
+  "rule": "aria-required-children",
+  "a11y_error": "aria-required-children",
+  "expected_rule_id": "aria-required-children",
+  "injection_script_path": "injected_sites/newegg.com__sellers/aria-required-children/injection_script.js",
+  "rationale": "Creates a parent with role=\"tablist\" but no children with role=\"tab\", violating required child roles and triggering aria-required-children."
+}

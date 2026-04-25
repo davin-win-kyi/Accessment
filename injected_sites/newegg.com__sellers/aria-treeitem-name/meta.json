@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/aria-treeitem-name/source.html",
+  "rule_md_path": "deque_md/aria-treeitem-name.md",
+  "rule": "aria-treeitem-name",
+  "a11y_error": "aria-treeitem-name",
+  "expected_rule_id": "aria-treeitem-name",
+  "injection_script_path": "injected_sites/newegg.com__sellers/aria-treeitem-name/injection_script.js",
+  "rationale": "Adds ARIA treeitem elements without accessible names (empty content, empty aria-label, or broken aria-labelledby), which triggers the aria-treeitem-name violation."
+}

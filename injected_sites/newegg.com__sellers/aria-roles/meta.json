@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/aria-roles/source.html",
+  "rule_md_path": "deque_md/aria-roles.md",
+  "rule": "aria-roles",
+  "a11y_error": "aria-roles",
+  "expected_rule_id": "aria-roles",
+  "injection_script_path": "injected_sites/newegg.com__sellers/aria-roles/injection_script.js",
+  "rationale": "Injects a visible element with an invalid ARIA role value ('buton') to trigger the aria-roles rule."
+}

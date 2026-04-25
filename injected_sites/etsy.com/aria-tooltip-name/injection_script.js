@@ -1,0 +1,1 @@
+(() => { const badTooltip = document.createElement('div'); badTooltip.id = 'bad-tooltip-no-name'; badTooltip.setAttribute('role', 'tooltip'); badTooltip.setAttribute('aria-label', ''); document.body.appendChild(badTooltip); })();

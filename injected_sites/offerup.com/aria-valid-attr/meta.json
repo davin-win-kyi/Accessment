@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/aria-valid-attr/source.html",
+  "rule_md_path": "deque_md/aria-valid-attr.md",
+  "rule": "aria-valid-attr",
+  "a11y_error": "aria-valid-attr",
+  "expected_rule_id": "aria-valid-attr",
+  "injection_script_path": "injected_sites/offerup.com/aria-valid-attr/injection_script.js",
+  "rationale": "Adds an element with an invalid ARIA attribute (aria-visible), which violates the rule requiring ARIA attributes to have valid names."
+}

@@ -1,0 +1,11 @@
+{
+  "site_name": "etsy.com",
+  "source_path": "site_sources/etsy.com/source.html",
+  "injected_source_path": "injected_sites/etsy.com/aria-meter-name/source.html",
+  "rule_md_path": "deque_md/aria-meter-name.md",
+  "rule": "aria-meter-name",
+  "a11y_error": "aria-meter-name",
+  "expected_rule_id": "aria-meter-name",
+  "injection_script_path": "injected_sites/etsy.com/aria-meter-name/injection_script.js",
+  "rationale": "Adds a visible element with role=\"meter\" and an empty aria-label, resulting in no accessible name and triggering the aria-meter-name violation."
+}

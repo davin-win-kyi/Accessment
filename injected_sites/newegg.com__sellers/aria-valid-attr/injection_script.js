@@ -1,0 +1,1 @@
+(function(){try{var target=document.body||document.documentElement;var bad=document.createElement('div');bad.id='axe-aria-invalid';bad.textContent='Example element';bad.setAttribute('aria-visible','true');target.appendChild(bad);}catch(e){}})();

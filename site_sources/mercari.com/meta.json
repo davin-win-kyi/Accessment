@@ -1,0 +1,11 @@
+{
+  "url": "https://www.mercari.com/",
+  "slug": "mercari.com",
+  "timestamp_unix": 1776804456.01709,
+  "status": 200,
+  "final_url": "https://www.mercari.com/",
+  "title": "Your Go-to Marketplace for Deals on Used & Secondhand Items",
+  "raw_response_path": "data/site_sources/mercari.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/mercari.com/source.html",
+  "screenshot_path": "data/site_sources/mercari.com/page.png"
+}

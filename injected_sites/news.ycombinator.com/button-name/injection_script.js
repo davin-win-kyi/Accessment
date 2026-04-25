@@ -1,0 +1,1 @@
+(function(){var btn=document.createElement('button');btn.id='hn-empty-button-defect';btn.setAttribute('aria-label','');document.body.appendChild(btn);})();

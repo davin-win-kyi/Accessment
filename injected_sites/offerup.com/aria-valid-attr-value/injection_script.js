@@ -1,0 +1,1 @@
+(function(){ var el = document.createElement('div'); el.id = 'axe-aria-invalid'; el.textContent = 'Promotional banner'; el.setAttribute('aria-hidden', 'rtue'); document.body.appendChild(el); })();

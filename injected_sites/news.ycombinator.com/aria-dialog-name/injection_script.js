@@ -1,0 +1,1 @@
+var bad = document.createElement('div'); bad.id = 'alempty'; bad.setAttribute('role', 'alertdialog'); bad.setAttribute('aria-label', ''); bad.textContent = 'This is a modal without an accessible name.'; document.body.appendChild(bad);

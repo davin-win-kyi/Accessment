@@ -1,0 +1,1 @@
+(function(){var ul=document.createElement('ul');ul.id='a11y-bad-role-ul';ul.setAttribute('role','button');var li=document.createElement('li');li.textContent='Name';ul.appendChild(li);(document.querySelector('main')||document.body).appendChild(ul);})();

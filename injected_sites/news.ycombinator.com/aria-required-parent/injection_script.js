@@ -1,0 +1,1 @@
+(() => { const orphanMenuItem = document.createElement('a'); orphanMenuItem.setAttribute('role', 'menuitem'); orphanMenuItem.href = '#'; orphanMenuItem.textContent = 'Orphan menu item (no menu parent)'; document.body.appendChild(orphanMenuItem); })();

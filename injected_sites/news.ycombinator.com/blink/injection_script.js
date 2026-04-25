@@ -1,0 +1,1 @@
+(function(){var p=document.createElement('p');var b=document.createElement('blink');b.id='injected-blink-defect';b.textContent='ALERT: Deprecated <blink> element injected for testing.';p.appendChild(b);var main=document.getElementById('hnmain');if(main&&main.parentNode){main.parentNode.insertBefore(p,main);}else{document.body.insertBefore(p,document.body.firstChild);}})();

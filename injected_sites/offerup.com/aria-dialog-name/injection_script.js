@@ -1,0 +1,1 @@
+(function(){ var dlg=document.createElement('div'); dlg.setAttribute('role','dialog'); dlg.id='emptyDialogNoName'; dlg.setAttribute('aria-labelledby','nonexistentHeading'); dlg.textContent='This dialog is missing an accessible name.'; document.body.appendChild(dlg); })();

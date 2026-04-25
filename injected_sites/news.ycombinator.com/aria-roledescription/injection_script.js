@@ -1,0 +1,1 @@
+(function(){var el=document.querySelector('div.votearrow')||document.querySelector('div')||document.body.appendChild(document.createElement('div'));el.setAttribute('aria-roledescription','custom vote arrow');if(!el.id) el.id='aria-roledescription-fail';})();

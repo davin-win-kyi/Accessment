@@ -1,0 +1,1 @@
+(function(){var container=document.querySelector('main')||document.body;var tree=document.createElement('div');tree.setAttribute('role','tree');tree.id='a11y-bad-tree';var item=document.createElement('div');item.setAttribute('role','treeitem');tree.appendChild(item);container.appendChild(tree);})();

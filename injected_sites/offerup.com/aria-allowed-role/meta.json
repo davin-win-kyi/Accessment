@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/aria-allowed-role/source.html",
+  "rule_md_path": "deque_md/aria-allowed-role.md",
+  "rule": "aria-allowed-role",
+  "a11y_error": "aria-allowed-role",
+  "expected_rule_id": "aria-allowed-role",
+  "injection_script_path": "injected_sites/offerup.com/aria-allowed-role/injection_script.js",
+  "rationale": "Adds a button element with role=\"heading\", which is not an allowed ARIA role for a button, triggering aria-allowed-role."
+}

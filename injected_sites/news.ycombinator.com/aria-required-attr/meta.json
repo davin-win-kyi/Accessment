@@ -1,0 +1,11 @@
+{
+  "site_name": "news.ycombinator.com",
+  "source_path": "site_sources/news.ycombinator.com/source.html",
+  "injected_source_path": "injected_sites/news.ycombinator.com/aria-required-attr/source.html",
+  "rule_md_path": "deque_md/aria-required-attr.md",
+  "rule": "aria-required-attr",
+  "a11y_error": "aria-required-attr",
+  "expected_rule_id": "aria-required-attr",
+  "injection_script_path": "injected_sites/news.ycombinator.com/aria-required-attr/injection_script.js",
+  "rationale": "Inserts a visible element with role=\"checkbox\" but omits the required aria-checked attribute, directly triggering aria-required-attr."
+}

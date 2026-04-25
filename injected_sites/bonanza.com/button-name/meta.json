@@ -1,0 +1,11 @@
+{
+  "site_name": "bonanza.com",
+  "source_path": "site_sources/bonanza.com/source.html",
+  "injected_source_path": "injected_sites/bonanza.com/button-name/source.html",
+  "rule_md_path": "deque_md/button-name.md",
+  "rule": "button-name",
+  "a11y_error": "button-name",
+  "expected_rule_id": "button-name",
+  "injection_script_path": "injected_sites/bonanza.com/button-name/injection_script.js",
+  "rationale": "Adds a focusable <button> with an empty aria-label and no text, resulting in no discernible accessible name and triggering the button-name rule."
+}

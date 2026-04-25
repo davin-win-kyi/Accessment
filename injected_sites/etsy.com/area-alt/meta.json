@@ -1,0 +1,11 @@
+{
+  "site_name": "etsy.com",
+  "source_path": "site_sources/etsy.com/source.html",
+  "injected_source_path": "injected_sites/etsy.com/area-alt/source.html",
+  "rule_md_path": "deque_md/area-alt.md",
+  "rule": "area-alt",
+  "a11y_error": "area-alt",
+  "expected_rule_id": "area-alt",
+  "injection_script_path": "injected_sites/etsy.com/area-alt/injection_script.js",
+  "rationale": "Adds an image map with clickable <area> elements that lack alt or ARIA labels, triggering the area-alt rule."
+}

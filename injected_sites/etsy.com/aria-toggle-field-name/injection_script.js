@@ -1,0 +1,1 @@
+(function(){var bad=document.createElement('div');bad.id='fail-aria-toggle';bad.setAttribute('role','checkbox');bad.setAttribute('aria-checked','false');bad.setAttribute('tabindex','0');bad.setAttribute('aria-labelledby','nonexistent-id');document.body.appendChild(bad);})();

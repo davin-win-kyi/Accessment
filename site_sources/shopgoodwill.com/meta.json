@@ -1,0 +1,11 @@
+{
+  "url": "https://shopgoodwill.com/",
+  "slug": "shopgoodwill.com",
+  "timestamp_unix": 1776804422.4384873,
+  "status": 200,
+  "final_url": "https://shopgoodwill.com/home",
+  "title": "Online Thrift Store For Unique & Vintage Finds | ShopGoodwill.com",
+  "raw_response_path": "data/site_sources/shopgoodwill.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/shopgoodwill.com/source.html",
+  "screenshot_path": "data/site_sources/shopgoodwill.com/page.png"
+}

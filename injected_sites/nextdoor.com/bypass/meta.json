@@ -1,0 +1,11 @@
+{
+  "site_name": "nextdoor.com",
+  "source_path": "site_sources/nextdoor.com/source.html",
+  "injected_source_path": "injected_sites/nextdoor.com/bypass/source.html",
+  "rule_md_path": "deque_md/bypass.md",
+  "rule": "bypass",
+  "a11y_error": "bypass",
+  "expected_rule_id": "bypass",
+  "injection_script_path": "injected_sites/nextdoor.com/bypass/injection_script.js",
+  "rationale": "Removes the skip link, main landmark, and all heading elements so no mechanism remains to bypass repeated blocks, triggering the bypass rule."
+}

@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/aria-required-children/source.html",
+  "rule_md_path": "deque_md/aria-required-children.md",
+  "rule": "aria-required-children",
+  "a11y_error": "aria-required-children",
+  "expected_rule_id": "aria-required-children",
+  "injection_script_path": "injected_sites/mercari.com/aria-required-children/injection_script.js",
+  "rationale": "Adds a role='menu' element without any required children (menuitem/menuitemcheckbox/menuitemradio), triggering aria-required-children."
+}

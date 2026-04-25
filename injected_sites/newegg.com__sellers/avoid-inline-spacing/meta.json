@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/avoid-inline-spacing/source.html",
+  "rule_md_path": "deque_md/avoid-inline-spacing.md",
+  "rule": "avoid-inline-spacing",
+  "a11y_error": "avoid-inline-spacing",
+  "expected_rule_id": "avoid-inline-spacing",
+  "injection_script_path": "injected_sites/newegg.com__sellers/avoid-inline-spacing/injection_script.js",
+  "rationale": "Adds a text paragraph with inline style line-height set using !important so user styles cannot adjust spacing, triggering avoid-inline-spacing."
+}

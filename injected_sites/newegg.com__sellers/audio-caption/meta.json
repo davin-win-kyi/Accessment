@@ -1,0 +1,11 @@
+{
+  "site_name": "newegg.com__sellers",
+  "source_path": "site_sources/newegg.com__sellers/source.html",
+  "injected_source_path": "injected_sites/newegg.com__sellers/audio-caption/source.html",
+  "rule_md_path": "deque_md/audio-caption.md",
+  "rule": "audio-caption",
+  "a11y_error": "audio-caption",
+  "expected_rule_id": "audio-caption",
+  "injection_script_path": "injected_sites/newegg.com__sellers/audio-caption/injection_script.js",
+  "rationale": "Adds an <audio> element with a <track> of kind=\"subtitles\" and no captions track, ensuring it fails the audio-caption rule."
+}

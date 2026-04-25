@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/aria-allowed-attr/source.html",
+  "rule_md_path": "deque_md/aria-allowed-attr.md",
+  "rule": "aria-allowed-attr",
+  "a11y_error": "aria-allowed-attr",
+  "expected_rule_id": "aria-allowed-attr",
+  "injection_script_path": "injected_sites/offerup.com/aria-allowed-attr/injection_script.js",
+  "rationale": "Inserts an element with role=progressbar using aria-checked, an attribute not permitted for that role, triggering aria-allowed-attr."
+}

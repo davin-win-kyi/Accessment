@@ -1,0 +1,11 @@
+{
+  "site_name": "news.ycombinator.com",
+  "source_path": "site_sources/news.ycombinator.com/source.html",
+  "injected_source_path": "injected_sites/news.ycombinator.com/bypass/source.html",
+  "rule_md_path": "deque_md/bypass.md",
+  "rule": "bypass",
+  "a11y_error": "bypass",
+  "expected_rule_id": "bypass",
+  "injection_script_path": "injected_sites/news.ycombinator.com/bypass/injection_script.js",
+  "rationale": "Removes all headings, in-page skip links, and landmark regions so the page lacks any mechanism to bypass repeated blocks, triggering the bypass rule."
+}

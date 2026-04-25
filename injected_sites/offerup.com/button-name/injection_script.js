@@ -1,0 +1,1 @@
+(function(){var btn=document.createElement('button');btn.id='a11y-defect-empty-button';btn.type='button';btn.style.margin='8px';btn.style.border='1px solid red';btn.style.width='40px';btn.style.height='40px';var container=document.getElementById('page-content')||document.querySelector('main')||document.body;container.appendChild(btn);})();

@@ -1,0 +1,11 @@
+{
+  "site_name": "bonanza.com",
+  "source_path": "site_sources/bonanza.com/source.html",
+  "injected_source_path": "injected_sites/bonanza.com/bypass/source.html",
+  "rule_md_path": "deque_md/bypass.md",
+  "rule": "bypass",
+  "a11y_error": "bypass",
+  "expected_rule_id": "bypass",
+  "injection_script_path": "injected_sites/bonanza.com/bypass/injection_script.js",
+  "rationale": "Replaces native landmark elements (header, nav, main, footer, aside) to remove landmarks and hides all headings and skip links so no bypass mechanism (heading, skip link, or landmark) remains."
+}

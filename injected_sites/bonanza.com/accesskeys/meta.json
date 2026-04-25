@@ -1,0 +1,11 @@
+{
+  "site_name": "bonanza.com",
+  "source_path": "site_sources/bonanza.com/source.html",
+  "injected_source_path": "injected_sites/bonanza.com/accesskeys/source.html",
+  "rule_md_path": "deque_md/accesskeys.md",
+  "rule": "accesskeys",
+  "a11y_error": "accesskeys",
+  "expected_rule_id": "accesskeys",
+  "injection_script_path": "injected_sites/bonanza.com/accesskeys/injection_script.js",
+  "rationale": "Adds two visible links with the same accesskey value, creating duplicate accesskeys that violate the uniqueness requirement."
+}

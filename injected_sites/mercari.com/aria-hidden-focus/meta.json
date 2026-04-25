@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/aria-hidden-focus/source.html",
+  "rule_md_path": "deque_md/aria-hidden-focus.md",
+  "rule": "aria-hidden-focus",
+  "a11y_error": "aria-hidden-focus",
+  "expected_rule_id": "aria-hidden-focus",
+  "injection_script_path": "injected_sites/mercari.com/aria-hidden-focus/injection_script.js",
+  "rationale": "Sets aria-hidden=true on the existing footer which contains many focusable links/buttons, creating focusable descendants inside an aria-hidden element."
+}

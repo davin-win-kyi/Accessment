@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/button-name/source.html",
+  "rule_md_path": "deque_md/button-name.md",
+  "rule": "button-name",
+  "a11y_error": "button-name",
+  "expected_rule_id": "button-name",
+  "injection_script_path": "injected_sites/offerup.com/button-name/injection_script.js",
+  "rationale": "Inserts a focusable <button> with no text or aria-label, creating a button without a discernible accessible name to trigger the button-name rule."
+}

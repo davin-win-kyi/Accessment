@@ -1,0 +1,11 @@
+{
+  "site_name": "cafepress.com",
+  "source_path": "site_sources/cafepress.com/source.html",
+  "injected_source_path": "injected_sites/cafepress.com/aria-required-children/source.html",
+  "rule_md_path": "deque_md/aria-required-children.md",
+  "rule": "aria-required-children",
+  "a11y_error": "aria-required-children",
+  "expected_rule_id": "aria-required-children",
+  "injection_script_path": "injected_sites/cafepress.com/aria-required-children/injection_script.js",
+  "rationale": "Inserts a div with role=list but without required role=listitem children, triggering the aria-required-children rule."
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://untappd.com/",
+  "slug": "untappd.com",
+  "timestamp_unix": 1776804504.3958454,
+  "status": 200,
+  "final_url": "https://untappd.com/",
+  "title": "Home",
+  "raw_response_path": "data/site_sources/untappd.com/raw_response.html",
+  "rendered_dom_path": "data/site_sources/untappd.com/source.html",
+  "screenshot_path": "data/site_sources/untappd.com/page.png"
+}

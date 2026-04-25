@@ -1,0 +1,1 @@
+(function(){var target=document.querySelector('main')||document.body;var bad=document.createElement('div');bad.id='alempty';bad.setAttribute('role','button');bad.setAttribute('aria-label','');bad.setAttribute('tabindex','0');target.insertBefore(bad,target.firstChild||null);}());

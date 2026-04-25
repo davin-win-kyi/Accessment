@@ -1,1 +1,0 @@
-Add the same accesskey value to two existing <link rel="preconnect"> elements in the head to create duplicate accesskeys.

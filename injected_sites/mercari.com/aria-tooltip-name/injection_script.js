@@ -1,0 +1,1 @@
+(function(){var body=document.body||(function(){var b=document.createElement('body');document.documentElement.appendChild(b);return b;})();var t=document.createElement('div');t.id='a11y-bad-tooltip';t.setAttribute('role','tooltip');t.setAttribute('aria-label','');t.style.position='absolute';t.style.top='0';t.style.left='0';t.style.zIndex='1';body.appendChild(t);})();

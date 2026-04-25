@@ -1,0 +1,11 @@
+{
+  "site_name": "news.ycombinator.com",
+  "source_path": "site_sources/news.ycombinator.com/source.html",
+  "injected_source_path": "injected_sites/news.ycombinator.com/checkboxgroup/source.html",
+  "rule_md_path": "deque_md/checkboxgroup.md",
+  "rule": "checkboxgroup",
+  "a11y_error": "checkboxgroup",
+  "expected_rule_id": "checkboxgroup",
+  "injection_script_path": "injected_sites/news.ycombinator.com/checkboxgroup/injection_script.js",
+  "rationale": "Adds multiple checkboxes sharing the same name without a fieldset/legend or ARIA group, violating the checkboxgroup rule."
+}

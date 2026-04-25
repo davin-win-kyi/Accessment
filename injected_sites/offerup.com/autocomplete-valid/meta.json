@@ -1,0 +1,11 @@
+{
+  "site_name": "offerup.com",
+  "source_path": "site_sources/offerup.com/source.html",
+  "injected_source_path": "injected_sites/offerup.com/autocomplete-valid/source.html",
+  "rule_md_path": "deque_md/autocomplete-valid.md",
+  "rule": "autocomplete-valid",
+  "a11y_error": "autocomplete-valid",
+  "expected_rule_id": "autocomplete-valid",
+  "injection_script_path": "injected_sites/offerup.com/autocomplete-valid/injection_script.js",
+  "rationale": "Adds a visible text input with an invalid autocomplete value (two field tokens and a misspelled token), which violates the autocomplete-valid rule."
+}

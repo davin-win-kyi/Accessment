@@ -1,0 +1,1 @@
+(() => { const meter = document.createElement('div'); meter.id = 'injected-meter-no-name'; meter.setAttribute('role', 'meter'); meter.setAttribute('aria-valuemin', '0'); meter.setAttribute('aria-valuemax', '100'); meter.setAttribute('aria-valuenow', '45'); document.body.appendChild(meter); })();

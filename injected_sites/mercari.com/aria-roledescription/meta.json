@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/aria-roledescription/source.html",
+  "rule_md_path": "deque_md/aria-roledescription.md",
+  "rule": "aria-roledescription",
+  "a11y_error": "aria-roledescription",
+  "expected_rule_id": "aria-roledescription",
+  "injection_script_path": "injected_sites/mercari.com/aria-roledescription/injection_script.js",
+  "rationale": "Adds aria-roledescription to a generic div without an implicit or explicit role, which violates the rule requiring aria-roledescription only on elements with a semantic role."
+}

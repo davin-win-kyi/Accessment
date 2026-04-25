@@ -1,0 +1,1 @@
+(function(){var target=document.querySelector('#getTheAppFooter p')||document.querySelector('main p')||document.querySelector('p');if(!target){target=document.createElement('p');target.textContent='Sample paragraph with forced spacing.';document.body.appendChild(target);}target.style.setProperty('line-height','1.5','important');})();

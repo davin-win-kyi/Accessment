@@ -1,0 +1,1 @@
+(function(){var el=document.querySelector('form.newsletter-form input#email');if(el){el.setAttribute('autocomplete','emial');}else{var f=document.createElement('form');var i=document.createElement('input');i.type='text';i.name='email';i.placeholder='Your Email Address';i.setAttribute('autocomplete','emial');f.appendChild(i);document.body.appendChild(f);}})();

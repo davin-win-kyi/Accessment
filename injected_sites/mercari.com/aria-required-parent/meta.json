@@ -1,0 +1,11 @@
+{
+  "site_name": "mercari.com",
+  "source_path": "site_sources/mercari.com/source.html",
+  "injected_source_path": "injected_sites/mercari.com/aria-required-parent/source.html",
+  "rule_md_path": "deque_md/aria-required-parent.md",
+  "rule": "aria-required-parent",
+  "a11y_error": "aria-required-parent",
+  "expected_rule_id": "aria-required-parent",
+  "injection_script_path": "injected_sites/mercari.com/aria-required-parent/injection_script.js",
+  "rationale": "Adds a standalone element with role=\"tab\" that is not contained within a role=\"tablist\", violating the required parent relationship."
+}

@@ -1,0 +1,1 @@
+(function(){var container=document.querySelector('main')||document.body;var badDiv=document.createElement('div');badDiv.id='aria-roledescription-fail';badDiv.setAttribute('aria-roledescription','custom container');badDiv.textContent='Special promo content';container.appendChild(badDiv);})();

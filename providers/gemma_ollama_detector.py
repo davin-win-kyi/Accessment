@@ -4,7 +4,7 @@ from typing import Dict
 import requests
 
 from providers.base import BaseDetector
-from utils import build_detection_prompt, extract_json_from_text
+from utils import build_detection_prompts, extract_json_from_text
 
 
 class GemmaOllamaDetector(BaseDetector):
@@ -14,14 +14,15 @@ class GemmaOllamaDetector(BaseDetector):
         self.base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 
     def detect(self, html: str) -> Dict:
-        prompt = build_detection_prompt(html)
+        system_prompt, user_prompt = build_detection_prompts(html)
 
         response = requests.post(
             f"{self.base_url}/api/chat",
             json={
                 "model": self.model_name,
                 "messages": [
-                    {"role": "user", "content": prompt}
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt},
                 ],
                 "stream": False,
                 "format": {

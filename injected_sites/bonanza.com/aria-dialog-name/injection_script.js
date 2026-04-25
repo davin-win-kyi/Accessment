@@ -1,0 +1,1 @@
+(function(){ var d = document.createElement('div'); d.id = 'bonz-bad-dialog'; d.setAttribute('role','dialog'); d.setAttribute('aria-label',''); document.body.appendChild(d); })();

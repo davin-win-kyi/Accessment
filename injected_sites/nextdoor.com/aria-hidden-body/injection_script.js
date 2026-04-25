@@ -1,0 +1,1 @@
+(function(){function apply(){if(document && document.body){document.body.setAttribute('aria-hidden','true');}}if(document.body){apply();}else{document.addEventListener('DOMContentLoaded',apply);}})();
