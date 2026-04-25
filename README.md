@@ -166,19 +166,6 @@ Injection failures (e.g., syntax errors, invalid DOM operations) are automatical
 
 ---
 
-## ⚠️ Known Issues / Failure Modes
-
-- **LLM-generated JS may be invalid**
-  - e.g., `SyntaxError: Unexpected end of input`
-- **DOM assumptions may fail**
-  - `querySelector(...)` returns `null`
-- **jsdom limitations**
-  - Some browser APIs are unsupported
-- **Module resolution issues**
-  - Ensure `jsdom` is installed and accessible
-
----
-
 ## 🧪 Evaluation Notes
 
 - `test_llm_error_detection.py` requires `OPENAI_API_KEY`
@@ -195,10 +182,7 @@ Injection failures (e.g., syntax errors, invalid DOM operations) are automatical
 
 ## 🚀 Future Improvements
 
-- Add **axe-core validation** before benchmarking
-- Improve injection robustness (multi-step mutations)
-- Add **visual + DOM hybrid evaluation**
-- Expand dataset:
+- Potentially Expand dataset:
   - LLM-generated sites
   - Generative platforms (e.g., Lovable)
 - Use dataset for **SFT / alignment training**
@@ -211,3 +195,4 @@ Accessment provides a reproducible pipeline to:
 - Generate **realistic accessibility defects**
 - Build **structured a11y datasets**
 - Evaluate and improve **LLM accessibility reasoning**
+  - (Future) Benchmark improvements in LLMs fine-tuned on a SFT dataset
